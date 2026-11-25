@@ -80,15 +80,20 @@
   }
 
   // one deal per row, two lines: firm and city with the right-hand fact; then the owner and the detail
-  function dealList(rows, right, detail, extra) {
+  function dealList(rows, right, detail, extra, open) {
     if (!rows.length) return null;
-    return el("ul", { cls: "dlist" + (extra ? " three" : "") }, rows.map(function (r) {
-      return el("li", null, [
-        el("span", { cls: "firm" }, [r.firm, el("span", { cls: "city", text: " · " + r.city })]),
+    return el("ul", { cls: "dlist" + (extra ? " three" : "") + (open ? " opens" : "") }, rows.map(function (r) {
+      var name = r.firm ? [r.firm, r.city ? el("span", { cls: "city", text: " · " + r.city }) : null] : ["Deal " + r.id];
+      var kids = [
+        el("span", { cls: "firm" }, name),
         el("span", { cls: "right" }, right(r)),
         el("span", { cls: "detail", text: [r.owner].concat(detail(r) || []).filter(Boolean).join(" · ") }),
         extra ? el("span", { cls: "detail extra", text: extra(r) }) : null
-      ]);
+      ];
+      if (!open) return el("li", null, kids);
+      var b = el("button", { type: "button" }, kids);
+      b.addEventListener("click", function () { open(r); });
+      return el("li", null, [b]);
     }));
   }
 
@@ -148,7 +153,8 @@
   }
 
   function allPushDrawer() {
-    var list = dealList(W.push, function (r) { return rowTags(r).map(tagEl); }, function (r) { return [r.status]; }, function (r) { return r.next; });
+    var list = dealList(W.push, function (r) { return rowTags(r).map(tagEl); }, function (r) { return [r.status]; }, function (r) { return r.next; },
+      function (r) { pushDrawer(r); });
     var lim = el("p", { cls: "foot", text: "Stage limits: " + W.limits_text + "." });
     openDrawer("Needs a push · " + W.push.length, [el("p", { cls: "rule", text: W.push_rule }), list, lim], "Monday review");
   }
@@ -204,7 +210,9 @@
     document.getElementById("card-line").textContent = W.card.line;
     var detail = document.getElementById("card-detail");
     if (W.card.detail) detail.textContent = W.card.detail; else detail.hidden = true;
-    document.getElementById("copy").addEventListener("click", copy);
+    var copyBtn = document.getElementById("copy");
+    copyBtn.addEventListener("click", copy);
+    copyBtn.style.minWidth = copyBtn.getBoundingClientRect().width + "px";
     if (!W.push.length) document.getElementById("copy").hidden = true;
 
     document.getElementById("week-when").textContent = W.week.start + " to " + W.week.end + " · as of " + W.week.export_day;

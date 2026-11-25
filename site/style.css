@@ -287,6 +287,11 @@ main {
 .dlist .right { grid-column: 2; grid-row: 1 / span 2; align-self: center; text-align: right; color: var(--ink-700); display: flex; gap: 6px; justify-content: flex-end; }
 .dlist .detail { grid-column: 1; font-size: 13px; color: var(--muted); }
 .dlist .detail.extra { color: var(--ink-700); }
+.dlist.opens li { display: block; padding: 0; }
+.dlist.opens li button { width: 100%; display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: 16px; row-gap: 1px; align-items: baseline; padding: 8px 0; }
+.dlist.opens li button:hover .firm { color: var(--violet); }
+.dlist.opens .right { grid-row: 1 / span 3; }
+.copy { text-align: center; }
 .dlist.three .right { grid-row: 1 / span 3; flex-direction: column; align-items: flex-end; gap: 4px; }
 .drawer .foot { margin: 14px 0 0; font-size: 13px; color: var(--ink-700); }
 .drawer .empty { font-size: 15px; }
