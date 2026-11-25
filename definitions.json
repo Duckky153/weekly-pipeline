@@ -1,0 +1,35 @@
+{
+ "note": "The page's own words for what counts (PLAN.md section 3). Each card line is at most 30 words.",
+ "card": [
+  {
+   "term": "Qualified:",
+   "text": "the firm does personal injury work, the person who signs was on the consultation, they named a problem the product handles, and they want to start within 90 days."
+  },
+  {
+   "term": "Stage start:",
+   "text": "when the event happens (scope sent, partner's yes, order form sent, both signatures), not when discussed."
+  },
+  {
+   "term": "Amount:",
+   "text": "the rep's estimate of yearly value after the pilot."
+  },
+  {
+   "term": "The week:",
+   "text": "Monday through Sunday, New York time."
+  },
+  {
+   "term": "Stage limit:",
+   "text": "won deals' average days in that stage in an earlier sample, plus 20%."
+  }
+ ],
+ "rules": {
+  "new_qualified": "Entered Qualified {range}.",
+  "moved_forward": "Open at Qualified or later last week, and in a later open stage now.",
+  "won": "Order form signed by both sides {range}.",
+  "lost": "Qualified deals closed lost {range}.",
+  "open": "Open deals from Qualified to Order form sent on {export}.",
+  "held_out": "Left out of every number and off the push list until the data is fixed.",
+  "chart": "Deals that entered Qualified",
+  "push": "Open qualified deals with no data problem that are over the stage limit, had the close date pushed out 7 or more days, have no contact in over 14 days, or have nothing booked. Deals meeting the most of these come first."
+ }
+}

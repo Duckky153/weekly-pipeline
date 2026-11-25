@@ -1,0 +1,14 @@
+{
+ "note": "Every paid request of the notes check, from the private spend log.",
+ "requests": 542,
+ "input_tokens": 675430,
+ "dollars": 0.028368,
+ "by_tag": {
+  "practice-1": 92,
+  "practice-2": 98,
+  "practice-check": 98,
+  "repeat": 124,
+  "scored": 124,
+  "smoke": 6
+ }
+}

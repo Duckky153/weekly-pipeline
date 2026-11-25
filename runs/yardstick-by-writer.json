@@ -1,0 +1,24 @@
+{
+ "OpenAI-written notes": {
+  "found": 7,
+  "of": 8,
+  "false_flags": 0,
+  "clean_chances": 22,
+  "waiting": {
+   "wrong": 0,
+   "settled": 12,
+   "keyed": 14
+  }
+ },
+ "Claude-written notes": {
+  "found": 21,
+  "of": 23,
+  "false_flags": 0,
+  "clean_chances": 65,
+  "waiting": {
+   "wrong": 1,
+   "settled": 28,
+   "keyed": 43
+  }
+ }
+}

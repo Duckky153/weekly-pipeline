@@ -1,0 +1,2167 @@
+{
+ "export": "scored",
+ "week": {
+  "start": "Mon Nov 16",
+  "end": "Sun Nov 22",
+  "export_day": "Mon Nov 23"
+ },
+ "definitions": [
+  {
+   "term": "Qualified:",
+   "text": "the firm does personal injury work, the person who signs was on the consultation, they named a problem the product handles, and they want to start within 90 days."
+  },
+  {
+   "term": "Stage start:",
+   "text": "when the event happens (scope sent, partner's yes, order form sent, both signatures), not when discussed."
+  },
+  {
+   "term": "Amount:",
+   "text": "the rep's estimate of yearly value after the pilot."
+  },
+  {
+   "term": "The week:",
+   "text": "Monday through Sunday, New York time."
+  },
+  {
+   "term": "Stage limit:",
+   "text": "won deals' average days in that stage in an earlier sample, plus 20%."
+  }
+ ],
+ "limits": {
+  "Qualified": 11,
+  "Pilot proposed": 16,
+  "Partner said yes": 15,
+  "Order form sent": 14
+ },
+ "limits_text": "Qualified 11 days · Pilot proposed 16 · Partner said yes 15 · Order form sent 14",
+ "recount": {
+  "new_qualified": {
+   "same": true,
+   "theirs": 7
+  },
+  "moved_forward": {
+   "same": true,
+   "theirs": 14
+  },
+  "won": {
+   "same": true,
+   "theirs": 3
+  },
+  "lost": {
+   "same": true,
+   "theirs": 3
+  },
+  "open": {
+   "same": true,
+   "theirs": 53
+  },
+  "held_out": {
+   "same": true,
+   "theirs": 14
+  }
+ },
+ "push_rule": "Open qualified deals with no data problem that are over the stage limit, had the close date pushed out 7 or more days, have no contact in over 14 days, or have nothing booked. Deals meeting the most of these come first.",
+ "test_sentence": "The list, on a sample it hadn't seen, matched its answer key: 10 of 10, none wrong.",
+ "tested_link": "https://github.com/Duckky153/weekly-pipeline#how-it-was-tested",
+ "card": {
+  "count": 10,
+  "value": 2061000,
+  "line": "10 deals need a push.",
+  "detail": "$2.1M a year between them. Four have the partner's yes but no order form yet.",
+  "stage": "Partner said yes",
+  "stage_count": 4
+ },
+ "numbers": [
+  {
+   "key": "new_qualified",
+   "empty": "No deal entered Qualified.",
+   "label": "New qualified",
+   "count": 7,
+   "rule": "Entered Qualified Nov 16 to Nov 22.",
+   "rows": [
+    {
+     "id": "D5242",
+     "firm": "Firm 4948",
+     "city": "Milwaukee",
+     "owner": "Dev Ashworth",
+     "stage": "Qualified",
+     "amount": 210000,
+     "amount_text": "$210K",
+     "date": "Nov 17"
+    },
+    {
+     "id": "D5259",
+     "firm": "Firm 8153",
+     "city": "Richmond",
+     "owner": "Rosalind Whitcombe",
+     "stage": "Qualified",
+     "amount": 156000,
+     "amount_text": "$156K",
+     "date": "Nov 19"
+    },
+    {
+     "id": "D5270",
+     "firm": "Firm 9553",
+     "city": "El Paso",
+     "owner": "Lina Tolliver",
+     "stage": "Qualified",
+     "amount": 264000,
+     "amount_text": "$264K",
+     "date": "Nov 19"
+    },
+    {
+     "id": "D5278",
+     "firm": "Firm 2111",
+     "city": "Detroit",
+     "owner": "Lina Tolliver",
+     "stage": "Qualified",
+     "amount": 180000,
+     "amount_text": "$180K",
+     "date": "Nov 16"
+    },
+    {
+     "id": "D5284",
+     "firm": "Firm 8903",
+     "city": "Spokane",
+     "owner": "Dev Ashworth",
+     "stage": "Qualified",
+     "amount": 270000,
+     "amount_text": "$270K",
+     "date": "Nov 18"
+    },
+    {
+     "id": "D5295",
+     "firm": "Firm 8165",
+     "city": "Raleigh",
+     "owner": "Nora Kessel",
+     "stage": "Qualified",
+     "amount": 252000,
+     "amount_text": "$252K",
+     "date": "Nov 20"
+    },
+    {
+     "id": "D5301",
+     "firm": "Firm 4226",
+     "city": "Tulsa",
+     "owner": "Lina Tolliver",
+     "stage": "Qualified",
+     "amount": 165000,
+     "amount_text": "$165K",
+     "date": "Nov 17"
+    }
+   ]
+  },
+  {
+   "key": "moved_forward",
+   "empty": "No deals moved forward.",
+   "label": "Moved forward",
+   "count": 14,
+   "rule": "Open at Qualified or later last week, and in a later open stage now.",
+   "rows": [
+    {
+     "id": "D5129",
+     "firm": "Firm 7449",
+     "city": "Richmond",
+     "owner": "Lina Tolliver",
+     "stage": "Order form sent",
+     "amount": 243000,
+     "amount_text": "$243K",
+     "from": "Partner said yes"
+    },
+    {
+     "id": "D5133",
+     "firm": "Firm 4564",
+     "city": "Nashville",
+     "owner": "Dev Ashworth",
+     "stage": "Order form sent",
+     "amount": 216000,
+     "amount_text": "$216K",
+     "from": "Partner said yes"
+    },
+    {
+     "id": "D5144",
+     "firm": "Firm 1387",
+     "city": "Little Rock",
+     "owner": "Nora Kessel",
+     "stage": "Order form sent",
+     "amount": 195000,
+     "amount_text": "$195K",
+     "from": "Partner said yes"
+    },
+    {
+     "id": "D5147",
+     "firm": "Firm 2935",
+     "city": "Kansas City",
+     "owner": "Lina Tolliver",
+     "stage": "Order form sent",
+     "amount": 270000,
+     "amount_text": "$270K",
+     "from": "Partner said yes"
+    },
+    {
+     "id": "D5155",
+     "firm": "Firm 3749",
+     "city": "Atlanta",
+     "owner": "Rosalind Whitcombe",
+     "stage": "Order form sent",
+     "amount": 231000,
+     "amount_text": "$231K",
+     "from": "Partner said yes"
+    },
+    {
+     "id": "D5162",
+     "firm": "Firm 6036",
+     "city": "Baltimore",
+     "owner": "Rosalind Whitcombe",
+     "stage": "Partner said yes",
+     "amount": 165000,
+     "amount_text": "$165K",
+     "from": "Pilot proposed"
+    },
+    {
+     "id": "D5167",
+     "firm": "Firm 1706",
+     "city": "San Diego",
+     "owner": "Lina Tolliver",
+     "stage": "Partner said yes",
+     "amount": 216000,
+     "amount_text": "$216K",
+     "from": "Pilot proposed"
+    },
+    {
+     "id": "D5169",
+     "firm": "Firm 7985",
+     "city": "Knoxville",
+     "owner": "Nora Kessel",
+     "stage": "Partner said yes",
+     "amount": 180000,
+     "amount_text": "$180K",
+     "from": "Pilot proposed"
+    },
+    {
+     "id": "D5173",
+     "firm": "Firm 4293",
+     "city": "Denver",
+     "owner": "Lina Tolliver",
+     "stage": "Partner said yes",
+     "amount": 210000,
+     "amount_text": "$210K",
+     "from": "Pilot proposed"
+    },
+    {
+     "id": "D5185",
+     "firm": "Firm 6623",
+     "city": "Miami",
+     "owner": "Dev Ashworth",
+     "stage": "Partner said yes",
+     "amount": 198000,
+     "amount_text": "$198K",
+     "from": "Pilot proposed"
+    },
+    {
+     "id": "D5222",
+     "firm": "Firm 9287",
+     "city": "Chattanooga",
+     "owner": "Dev Ashworth",
+     "stage": "Pilot proposed",
+     "amount": 231000,
+     "amount_text": "$231K",
+     "from": "Qualified"
+    },
+    {
+     "id": "D5225",
+     "firm": "Firm 8306",
+     "city": "El Paso",
+     "owner": "Rosalind Whitcombe",
+     "stage": "Pilot proposed",
+     "amount": 198000,
+     "amount_text": "$198K",
+     "from": "Qualified"
+    },
+    {
+     "id": "D5233",
+     "firm": "Firm 4072",
+     "city": "Savannah",
+     "owner": "Rosalind Whitcombe",
+     "stage": "Pilot proposed",
+     "amount": 210000,
+     "amount_text": "$210K",
+     "from": "Qualified"
+    },
+    {
+     "id": "D5235",
+     "firm": "Firm 2732",
+     "city": "Miami",
+     "owner": "Lina Tolliver",
+     "stage": "Pilot proposed",
+     "amount": 156000,
+     "amount_text": "$156K",
+     "from": "Qualified"
+    }
+   ]
+  },
+  {
+   "key": "won",
+   "empty": "No deal was won.",
+   "label": "Won",
+   "count": 3,
+   "value": 774000,
+   "value_text": "$774K",
+   "rule": "Order form signed by both sides Nov 16 to Nov 22.",
+   "rows": [
+    {
+     "id": "D5085",
+     "firm": "Firm 1359",
+     "city": "Pittsburgh",
+     "owner": "Lina Tolliver",
+     "stage": "Won",
+     "amount": 234000,
+     "amount_text": "$234K",
+     "date": "Nov 20"
+    },
+    {
+     "id": "D5106",
+     "firm": "Firm 9023",
+     "city": "McAllen",
+     "owner": "Rosalind Whitcombe",
+     "stage": "Won",
+     "amount": 390000,
+     "amount_text": "$390K",
+     "date": "Nov 16"
+    },
+    {
+     "id": "D5151",
+     "firm": "Firm 9440",
+     "city": "Jacksonville",
+     "owner": "Dev Ashworth",
+     "stage": "Won",
+     "amount": 150000,
+     "amount_text": "$150K",
+     "date": "Nov 18"
+    }
+   ]
+  },
+  {
+   "key": "lost",
+   "empty": "No qualified deal was lost.",
+   "label": "Lost",
+   "count": 3,
+   "value": 636000,
+   "value_text": "$636K",
+   "rule": "Qualified deals closed lost Nov 16 to Nov 22.",
+   "rows": [
+    {
+     "id": "D5109",
+     "firm": "Firm 3636",
+     "city": "Dallas",
+     "owner": "Nora Kessel",
+     "stage": "Lost",
+     "amount": 156000,
+     "amount_text": "$156K",
+     "date": "Nov 17",
+     "why": "No budget this year"
+    },
+    {
+     "id": "D5111",
+     "firm": "Firm 7622",
+     "city": "Shreveport",
+     "owner": "Dev Ashworth",
+     "stage": "Lost",
+     "amount": 300000,
+     "amount_text": "$300K",
+     "date": "Nov 20",
+     "why": "Stopped responding"
+    },
+    {
+     "id": "D5247",
+     "firm": "Firm 9896",
+     "city": "Charlotte",
+     "owner": "Dev Ashworth",
+     "stage": "Lost",
+     "amount": 180000,
+     "amount_text": "$180K",
+     "date": "Nov 19",
+     "why": "Stopped responding"
+    }
+   ],
+   "before_qualified": 1
+  },
+  {
+   "key": "open",
+   "empty": "No open deals.",
+   "label": "Open",
+   "count": 53,
+   "value": 10995600,
+   "value_text": "$11M",
+   "rule": "Open deals from Qualified to Order form sent on Mon Nov 23.",
+   "rows": [
+    {
+     "id": "D5065",
+     "firm": "Firm 2955",
+     "city": "Louisville",
+     "owner": "Nora Kessel",
+     "stage": "Partner said yes",
+     "amount": 180000,
+     "amount_text": "$180K"
+    },
+    {
+     "id": "D5077",
+     "firm": "Firm 3390",
+     "city": "Pittsburgh",
+     "owner": "Dev Ashworth",
+     "stage": "Partner said yes",
+     "amount": 180000,
+     "amount_text": "$180K"
+    },
+    {
+     "id": "D5082",
+     "firm": "Firm 5342",
+     "city": "Boise",
+     "owner": "Lina Tolliver",
+     "stage": "Order form sent",
+     "amount": 252000,
+     "amount_text": "$252K"
+    },
+    {
+     "id": "D5089",
+     "firm": "Firm 5995",
+     "city": "Albuquerque",
+     "owner": "Nora Kessel",
+     "stage": "Order form sent",
+     "amount": 231000,
+     "amount_text": "$231K"
+    },
+    {
+     "id": "D5094",
+     "firm": "Firm 8727",
+     "city": "Jackson",
+     "owner": "Rosalind Whitcombe",
+     "stage": "Order form sent",
+     "amount": 180000,
+     "amount_text": "$180K"
+    },
+    {
+     "id": "D5101",
+     "firm": "Firm 3216",
+     "city": "Lexington",
+     "owner": "Lina Tolliver",
+     "stage": "Order form sent",
+     "amount": 240000,
+     "amount_text": "$240K"
+    },
+    {
+     "id": "D5103",
+     "firm": "Firm 3156",
+     "city": "Savannah",
+     "owner": "Rosalind Whitcombe",
+     "stage": "Order form sent",
+     "amount": 234000,
+     "amount_text": "$234K"
+    },
+    {
+     "id": "D5115",
+     "firm": "Firm 9404",
+     "city": "Milwaukee",
+     "owner": "Dev Ashworth",
+     "stage": "Order form sent",
+     "amount": 198000,
+     "amount_text": "$198K"
+    },
+    {
+     "id": "D5118",
+     "firm": "Firm 7817",
+     "city": "Austin",
+     "owner": "Nora Kessel",
+     "stage": "Pilot proposed",
+     "amount": 216000,
+     "amount_text": "$216K"
+    },
+    {
+     "id": "D5125",
+     "firm": "Firm 7518",
+     "city": "Fresno",
+     "owner": "Dev Ashworth",
+     "stage": "Order form sent",
+     "amount": 156000,
+     "amount_text": "$156K"
+    },
+    {
+     "id": "D5129",
+     "firm": "Firm 7449",
+     "city": "Richmond",
+     "owner": "Lina Tolliver",
+     "stage": "Order form sent",
+     "amount": 243000,
+     "amount_text": "$243K"
+    },
+    {
+     "id": "D5133",
+     "firm": "Firm 4564",
+     "city": "Nashville",
+     "owner": "Dev Ashworth",
+     "stage": "Order form sent",
+     "amount": 216000,
+     "amount_text": "$216K"
+    },
+    {
+     "id": "D5135",
+     "firm": "Firm 9701",
+     "city": "Detroit",
+     "owner": "Nora Kessel",
+     "stage": "Partner said yes",
+     "amount": 240000,
+     "amount_text": "$240K"
+    },
+    {
+     "id": "D5136",
+     "firm": "Firm 4643",
+     "city": "Knoxville",
+     "owner": "Lina Tolliver",
+     "stage": "Order form sent",
+     "amount": 150000,
+     "amount_text": "$150K"
+    },
+    {
+     "id": "D5138",
+     "firm": "Firm 8245",
+     "city": "Mobile",
+     "owner": "Dev Ashworth",
+     "stage": "Order form sent",
+     "amount": 234000,
+     "amount_text": "$234K"
+    },
+    {
+     "id": "D5140",
+     "firm": "Firm 1244",
+     "city": "Baltimore",
+     "owner": "Dev Ashworth",
+     "stage": "Partner said yes",
+     "amount": 210000,
+     "amount_text": "$210K"
+    },
+    {
+     "id": "D5144",
+     "firm": "Firm 1387",
+     "city": "Little Rock",
+     "owner": "Nora Kessel",
+     "stage": "Order form sent",
+     "amount": 195000,
+     "amount_text": "$195K"
+    },
+    {
+     "id": "D5147",
+     "firm": "Firm 2935",
+     "city": "Kansas City",
+     "owner": "Lina Tolliver",
+     "stage": "Order form sent",
+     "amount": 270000,
+     "amount_text": "$270K"
+    },
+    {
+     "id": "D5155",
+     "firm": "Firm 3749",
+     "city": "Atlanta",
+     "owner": "Rosalind Whitcombe",
+     "stage": "Order form sent",
+     "amount": 231000,
+     "amount_text": "$231K"
+    },
+    {
+     "id": "D5156",
+     "firm": "Firm 2375",
+     "city": "Tucson",
+     "owner": "Lina Tolliver",
+     "stage": "Partner said yes",
+     "amount": 240000,
+     "amount_text": "$240K"
+    },
+    {
+     "id": "D5157",
+     "firm": "Firm 4466",
+     "city": "Omaha",
+     "owner": "Nora Kessel",
+     "stage": "Partner said yes",
+     "amount": 210000,
+     "amount_text": "$210K"
+    },
+    {
+     "id": "D5162",
+     "firm": "Firm 6036",
+     "city": "Baltimore",
+     "owner": "Rosalind Whitcombe",
+     "stage": "Partner said yes",
+     "amount": 165000,
+     "amount_text": "$165K"
+    },
+    {
+     "id": "D5163",
+     "firm": "Firm 2422",
+     "city": "Miami",
+     "owner": "Dev Ashworth",
+     "stage": "Partner said yes",
+     "amount": 198000,
+     "amount_text": "$198K"
+    },
+    {
+     "id": "D5166",
+     "firm": "Firm 1022",
+     "city": "Cincinnati",
+     "owner": "Rosalind Whitcombe",
+     "stage": "Pilot proposed",
+     "amount": 168000,
+     "amount_text": "$168K"
+    },
+    {
+     "id": "D5167",
+     "firm": "Firm 1706",
+     "city": "San Diego",
+     "owner": "Lina Tolliver",
+     "stage": "Partner said yes",
+     "amount": 216000,
+     "amount_text": "$216K"
+    },
+    {
+     "id": "D5169",
+     "firm": "Firm 7985",
+     "city": "Knoxville",
+     "owner": "Nora Kessel",
+     "stage": "Partner said yes",
+     "amount": 180000,
+     "amount_text": "$180K"
+    },
+    {
+     "id": "D5173",
+     "firm": "Firm 4293",
+     "city": "Denver",
+     "owner": "Lina Tolliver",
+     "stage": "Partner said yes",
+     "amount": 210000,
+     "amount_text": "$210K"
+    },
+    {
+     "id": "D5181",
+     "firm": "Firm 6523",
+     "city": "Fresno",
+     "owner": "Nora Kessel",
+     "stage": "Pilot proposed",
+     "amount": 198000,
+     "amount_text": "$198K"
+    },
+    {
+     "id": "D5185",
+     "firm": "Firm 6623",
+     "city": "Miami",
+     "owner": "Dev Ashworth",
+     "stage": "Partner said yes",
+     "amount": 198000,
+     "amount_text": "$198K"
+    },
+    {
+     "id": "D5187",
+     "firm": "Firm 1888",
+     "city": "Salt Lake City",
+     "owner": "Nora Kessel",
+     "stage": "Pilot proposed",
+     "amount": 216000,
+     "amount_text": "$216K"
+    },
+    {
+     "id": "D5190",
+     "firm": "Firm 9335",
+     "city": "San Diego",
+     "owner": "Lina Tolliver",
+     "stage": "Pilot proposed",
+     "amount": 195000,
+     "amount_text": "$195K"
+    },
+    {
+     "id": "D5201",
+     "firm": "Firm 7169",
+     "city": "Spokane",
+     "owner": "Dev Ashworth",
+     "stage": "Pilot proposed",
+     "amount": 180000,
+     "amount_text": "$180K"
+    },
+    {
+     "id": "D5204",
+     "firm": "Firm 2347",
+     "city": "San Antonio",
+     "owner": "Dev Ashworth",
+     "stage": "Qualified",
+     "amount": 240000,
+     "amount_text": "$240K"
+    },
+    {
+     "id": "D5208",
+     "firm": "Firm 1671",
+     "city": "Las Vegas",
+     "owner": "Rosalind Whitcombe",
+     "stage": "Pilot proposed",
+     "amount": 600,
+     "amount_text": "$600"
+    },
+    {
+     "id": "D5212",
+     "firm": "Firm 9136",
+     "city": "Knoxville",
+     "owner": "Lina Tolliver",
+     "stage": "Pilot proposed",
+     "amount": 243000,
+     "amount_text": "$243K"
+    },
+    {
+     "id": "D5216",
+     "firm": "Firm 5343",
+     "city": "Boise",
+     "owner": "Nora Kessel",
+     "stage": "Pilot proposed",
+     "amount": 198000,
+     "amount_text": "$198K"
+    },
+    {
+     "id": "D5222",
+     "firm": "Firm 9287",
+     "city": "Chattanooga",
+     "owner": "Dev Ashworth",
+     "stage": "Pilot proposed",
+     "amount": 231000,
+     "amount_text": "$231K"
+    },
+    {
+     "id": "D5225",
+     "firm": "Firm 8306",
+     "city": "El Paso",
+     "owner": "Rosalind Whitcombe",
+     "stage": "Pilot proposed",
+     "amount": 198000,
+     "amount_text": "$198K"
+    },
+    {
+     "id": "D5226",
+     "firm": "Firm 9879",
+     "city": "Richmond",
+     "owner": "Rosalind Whitcombe",
+     "stage": "Qualified",
+     "amount": 231000,
+     "amount_text": "$231K"
+    },
+    {
+     "id": "D5230",
+     "firm": "Firm 3337",
+     "city": "Phoenix",
+     "owner": "Dev Ashworth",
+     "stage": "Qualified",
+     "amount": 216000,
+     "amount_text": "$216K"
+    },
+    {
+     "id": "D5233",
+     "firm": "Firm 4072",
+     "city": "Savannah",
+     "owner": "Rosalind Whitcombe",
+     "stage": "Pilot proposed",
+     "amount": 210000,
+     "amount_text": "$210K"
+    },
+    {
+     "id": "D5235",
+     "firm": "Firm 2732",
+     "city": "Miami",
+     "owner": "Lina Tolliver",
+     "stage": "Pilot proposed",
+     "amount": 156000,
+     "amount_text": "$156K"
+    },
+    {
+     "id": "D5237",
+     "firm": "Firm 3935",
+     "city": "St. Louis",
+     "owner": "Nora Kessel",
+     "stage": "Qualified",
+     "amount": 216000,
+     "amount_text": "$216K"
+    },
+    {
+     "id": "D5239",
+     "firm": "Firm 5773",
+     "city": "McAllen",
+     "owner": "Rosalind Whitcombe",
+     "stage": "Qualified",
+     "amount": 270000,
+     "amount_text": "$270K"
+    },
+    {
+     "id": "D5242",
+     "firm": "Firm 4948",
+     "city": "Milwaukee",
+     "owner": "Dev Ashworth",
+     "stage": "Qualified",
+     "amount": 210000,
+     "amount_text": "$210K"
+    },
+    {
+     "id": "D5246",
+     "firm": "Firm 9491",
+     "city": "Tucson",
+     "owner": "Nora Kessel",
+     "stage": "Qualified",
+     "amount": 195000,
+     "amount_text": "$195K"
+    },
+    {
+     "id": "D5249",
+     "firm": "Firm 2488",
+     "city": "Baton Rouge",
+     "owner": "Lina Tolliver",
+     "stage": "Qualified",
+     "amount": 264000,
+     "amount_text": "$264K"
+    },
+    {
+     "id": "D5259",
+     "firm": "Firm 8153",
+     "city": "Richmond",
+     "owner": "Rosalind Whitcombe",
+     "stage": "Qualified",
+     "amount": 156000,
+     "amount_text": "$156K"
+    },
+    {
+     "id": "D5270",
+     "firm": "Firm 9553",
+     "city": "El Paso",
+     "owner": "Lina Tolliver",
+     "stage": "Qualified",
+     "amount": 264000,
+     "amount_text": "$264K"
+    },
+    {
+     "id": "D5278",
+     "firm": "Firm 2111",
+     "city": "Detroit",
+     "owner": "Lina Tolliver",
+     "stage": "Qualified",
+     "amount": 180000,
+     "amount_text": "$180K"
+    },
+    {
+     "id": "D5284",
+     "firm": "Firm 8903",
+     "city": "Spokane",
+     "owner": "Dev Ashworth",
+     "stage": "Qualified",
+     "amount": 270000,
+     "amount_text": "$270K"
+    },
+    {
+     "id": "D5295",
+     "firm": "Firm 8165",
+     "city": "Raleigh",
+     "owner": "Nora Kessel",
+     "stage": "Qualified",
+     "amount": 252000,
+     "amount_text": "$252K"
+    },
+    {
+     "id": "D5301",
+     "firm": "Firm 4226",
+     "city": "Tulsa",
+     "owner": "Lina Tolliver",
+     "stage": "Qualified",
+     "amount": 165000,
+     "amount_text": "$165K"
+    }
+   ]
+  }
+ ],
+ "held_out": {
+  "count": 14,
+  "value": 2358000,
+  "value_text": "$2.4M",
+  "rule": "Left out of every number and off the push list until the data is fixed.",
+  "rows": [
+   {
+    "id": "D5079",
+    "firm": "Firm 6602",
+    "city": "Nashville",
+    "owner": "Rosalind Whitcombe",
+    "stage": "Partner said yes",
+    "amount": 231000,
+    "amount_text": "$231K",
+    "rule": "H4",
+    "reason": "Close date passed, still open",
+    "fixes": "deal owner"
+   },
+   {
+    "id": "D5062",
+    "firm": "Firm 9595",
+    "city": "Tucson",
+    "owner": "Rosalind Whitcombe",
+    "stage": "Lost",
+    "amount": 198000,
+    "amount_text": "$198K",
+    "rule": "H8",
+    "reason": "Contacted after it was lost",
+    "fixes": "deal owner"
+   },
+   {
+    "id": "D5253",
+    "firm": "Firm 6486",
+    "city": "Nashville",
+    "owner": "Rosalind Whitcombe",
+    "stage": "Qualified",
+    "amount": 210000,
+    "amount_text": "$210K",
+    "rule": "H14",
+    "reason": "Dated after the export",
+    "fixes": "sales lead"
+   },
+   {
+    "id": "D5186",
+    "firm": "Firm 4087",
+    "city": "Cleveland",
+    "owner": "Lina Tolliver",
+    "stage": "Pilot proposed",
+    "amount": 144000,
+    "amount_text": "$144K",
+    "rule": "H13",
+    "reason": "Dates out of order",
+    "fixes": "sales lead"
+   },
+   {
+    "id": "D5266",
+    "firm": "Firm 1238",
+    "city": "Omaha",
+    "owner": "Lina Tolliver",
+    "stage": "Lost",
+    "amount": 0,
+    "amount_text": "no amount",
+    "rule": "H9",
+    "reason": "Lost with no reason",
+    "fixes": "deal owner"
+   },
+   {
+    "id": "D5122",
+    "firm": "Firm 2081",
+    "city": "Baltimore",
+    "owner": "Dev Ashworth",
+    "stage": "Pilot proposed",
+    "amount": 216000,
+    "amount_text": "$216K",
+    "rule": "H7",
+    "reason": "Moved back a stage",
+    "fixes": "deal owner"
+   },
+   {
+    "id": "D5067",
+    "firm": "Firm 4740",
+    "city": "Houston",
+    "owner": "Dev Ashworth",
+    "stage": "Won",
+    "amount": 0,
+    "amount_text": "no amount",
+    "rule": "H2",
+    "reason": "No amount",
+    "fixes": "deal owner"
+   },
+   {
+    "id": "D5158",
+    "firm": "Firm 4893",
+    "city": "Sacramento",
+    "owner": "Nora Kessel",
+    "stage": "Lost",
+    "amount": 150000,
+    "amount_text": "$150K",
+    "rule": "H3",
+    "reason": "No close date",
+    "fixes": "deal owner"
+   },
+   {
+    "id": "D5215",
+    "firm": "Firm 5791",
+    "city": "Richmond",
+    "owner": "Nora Kessel",
+    "stage": "Pilot proposed",
+    "amount": 195000,
+    "amount_text": "$195K",
+    "rule": "H3",
+    "reason": "No close date",
+    "fixes": "deal owner"
+   },
+   {
+    "id": "D5240",
+    "firm": "",
+    "city": "",
+    "owner": "Lina Tolliver",
+    "stage": "Qualified",
+    "amount": 180000,
+    "amount_text": "$180K",
+    "rule": "H12",
+    "reason": "No firm on the deal",
+    "fixes": "deal owner"
+   },
+   {
+    "id": "D5277",
+    "firm": "Firm 3549",
+    "city": "Charleston",
+    "owner": "",
+    "stage": "Qualified",
+    "amount": 198000,
+    "amount_text": "$198K",
+    "rule": "H1",
+    "reason": "No owner",
+    "fixes": "sales lead"
+   },
+   {
+    "id": "D5290",
+    "firm": "Firm 7312",
+    "city": "Orlando",
+    "owner": "Dev Ashworth",
+    "stage": "Qualified",
+    "amount": 180000,
+    "amount_text": "$180K",
+    "rule": "H6",
+    "reason": "Same firm as another deal",
+    "fixes": "sales lead"
+   },
+   {
+    "id": "D5131",
+    "firm": "Firm 3789",
+    "city": "Philadelphia",
+    "owner": "Nora Kessel",
+    "stage": "Order form sent",
+    "amount": 240000,
+    "amount_text": "$240K",
+    "rule": "H5",
+    "reason": "Stage skipped",
+    "fixes": "deal owner"
+   },
+   {
+    "id": "D5099",
+    "firm": "Firm 7157",
+    "city": "Shreveport",
+    "owner": "Lina Tolliver",
+    "stage": "Order form sent",
+    "amount": 216000,
+    "amount_text": "$216K",
+    "rule": "H15",
+    "reason": "Unknown stage or pipeline",
+    "fixes": "sales lead"
+   }
+  ]
+ },
+ "push": [
+  {
+   "id": "D5204",
+   "firm": "Firm 2347",
+   "city": "San Antonio",
+   "owner": "Dev Ashworth",
+   "stage": "Qualified",
+   "amount": 240000,
+   "amount_text": "$240K",
+   "contact": "last contact 18 days ago",
+   "status": "Qualified · 19 days",
+   "push_tags": [
+    "OVER LIMIT",
+    "QUIET",
+    "NONE BOOKED"
+   ],
+   "days_in_stage": 19,
+   "limit": 11,
+   "close_date": "Jan 8",
+   "last_close_date": "Jan 8",
+   "tag_text": {
+    "OVER LIMIT": "19 days in Qualified; the limit is 11.",
+    "QUIET": "Last contact 18 days ago; the limit is 14.",
+    "NONE BOOKED": "Nothing on the calendar for this deal."
+   },
+   "tags": [
+    "OVER LIMIT",
+    "QUIET"
+   ],
+   "note_tags": [
+    "NOT A STEP"
+   ],
+   "note_tag_text": {
+    "NOT A STEP": "The deal's own next step, \"Follow up\", is too vague to act on."
+   },
+   "next": "Next: send the pilot scope",
+   "next_source": "stage",
+   "next_source_label": "from the stage"
+  },
+  {
+   "id": "D5118",
+   "firm": "Firm 7817",
+   "city": "Austin",
+   "owner": "Nora Kessel",
+   "stage": "Pilot proposed",
+   "amount": 216000,
+   "amount_text": "$216K",
+   "contact": "last contact 5 days ago",
+   "status": "Pilot proposed · 24 days",
+   "push_tags": [
+    "OVER LIMIT",
+    "SLIPPED"
+   ],
+   "days_in_stage": 24,
+   "limit": 16,
+   "close_date": "Dec 4",
+   "last_close_date": "Nov 27",
+   "tag_text": {
+    "OVER LIMIT": "24 days in Pilot proposed; the limit is 16.",
+    "SLIPPED": "Close date moved from Nov 27 to Dec 4 since last week."
+   },
+   "tags": [
+    "OVER LIMIT",
+    "SLIPPED"
+   ],
+   "note_tags": [],
+   "note_tag_text": {},
+   "next": "Next: get the scope to Ingram",
+   "next_source": "deal",
+   "next_source_label": null
+  },
+  {
+   "id": "D5190",
+   "firm": "Firm 9335",
+   "city": "San Diego",
+   "owner": "Lina Tolliver",
+   "stage": "Pilot proposed",
+   "amount": 195000,
+   "amount_text": "$195K",
+   "contact": "no contact logged",
+   "status": "Close date Nov 30 to Dec 11",
+   "push_tags": [
+    "SLIPPED",
+    "QUIET"
+   ],
+   "days_in_stage": 12,
+   "limit": 16,
+   "close_date": "Dec 11",
+   "last_close_date": "Nov 30",
+   "tag_text": {
+    "SLIPPED": "Close date moved from Nov 30 to Dec 11 since last week.",
+    "QUIET": "No contact logged."
+   },
+   "tags": [
+    "SLIPPED",
+    "QUIET"
+   ],
+   "note_tags": [],
+   "note_tag_text": {},
+   "next": "Next: book review call with Cassius",
+   "next_source": "deal",
+   "next_source_label": null
+  },
+  {
+   "id": "D5226",
+   "firm": "Firm 9879",
+   "city": "Richmond",
+   "owner": "Rosalind Whitcombe",
+   "stage": "Qualified",
+   "amount": 231000,
+   "amount_text": "$231K",
+   "contact": "last contact 4 days ago",
+   "status": "Close date Dec 18 to Jan 8",
+   "push_tags": [
+    "SLIPPED",
+    "NONE BOOKED"
+   ],
+   "days_in_stage": 10,
+   "limit": 11,
+   "close_date": "Jan 8",
+   "last_close_date": "Dec 18",
+   "tag_text": {
+    "SLIPPED": "Close date moved from Dec 18 to Jan 8 since last week.",
+    "NONE BOOKED": "Nothing on the calendar for this deal."
+   },
+   "tags": [
+    "SLIPPED",
+    "NONE BOOKED"
+   ],
+   "note_tags": [],
+   "note_tag_text": {},
+   "next": "Next: send pilot scope to Doris",
+   "next_source": "deal",
+   "next_source_label": null
+  },
+  {
+   "id": "D5065",
+   "firm": "Firm 2955",
+   "city": "Louisville",
+   "owner": "Nora Kessel",
+   "stage": "Partner said yes",
+   "amount": 180000,
+   "amount_text": "$180K",
+   "contact": "last contact 6 days ago",
+   "status": "Partner said yes · 20 days",
+   "push_tags": [
+    "OVER LIMIT"
+   ],
+   "days_in_stage": 20,
+   "limit": 15,
+   "close_date": "Dec 15",
+   "last_close_date": "Dec 15",
+   "tag_text": {
+    "OVER LIMIT": "20 days in Partner said yes; the limit is 15."
+   },
+   "tags": [
+    "OVER LIMIT"
+   ],
+   "note_tags": [],
+   "note_tag_text": {},
+   "next": "Next: send order form to Mavis",
+   "next_source": "deal",
+   "next_source_label": null
+  },
+  {
+   "id": "D5077",
+   "firm": "Firm 3390",
+   "city": "Pittsburgh",
+   "owner": "Dev Ashworth",
+   "stage": "Partner said yes",
+   "amount": 180000,
+   "amount_text": "$180K",
+   "contact": "last contact 5 days ago",
+   "status": "Partner said yes · 17 days",
+   "push_tags": [
+    "OVER LIMIT"
+   ],
+   "days_in_stage": 17,
+   "limit": 15,
+   "close_date": "Dec 18",
+   "last_close_date": "Dec 18",
+   "tag_text": {
+    "OVER LIMIT": "17 days in Partner said yes; the limit is 15."
+   },
+   "tags": [
+    "OVER LIMIT",
+    "NOT A STEP"
+   ],
+   "note_tags": [
+    "NOT A STEP"
+   ],
+   "note_tag_text": {
+    "NOT A STEP": "The deal's own next step, \"Check in with Vance\", is too vague to act on."
+   },
+   "next": "Next: send the order form",
+   "next_source": "stage",
+   "next_source_label": "from the stage"
+  },
+  {
+   "id": "D5129",
+   "firm": "Firm 7449",
+   "city": "Richmond",
+   "owner": "Lina Tolliver",
+   "stage": "Order form sent",
+   "amount": 243000,
+   "amount_text": "$243K",
+   "contact": "last contact 4 days ago",
+   "status": "Close date Dec 1 to Dec 15",
+   "push_tags": [
+    "SLIPPED"
+   ],
+   "days_in_stage": 6,
+   "limit": 14,
+   "close_date": "Dec 15",
+   "last_close_date": "Dec 1",
+   "tag_text": {
+    "SLIPPED": "Close date moved from Dec 1 to Dec 15 since last week."
+   },
+   "tags": [
+    "SLIPPED"
+   ],
+   "note_tags": [],
+   "note_tag_text": {},
+   "next": "Next: send revised order form to Rita",
+   "next_source": "deal",
+   "next_source_label": null
+  },
+  {
+   "id": "D5166",
+   "firm": "Firm 1022",
+   "city": "Cincinnati",
+   "owner": "Rosalind Whitcombe",
+   "stage": "Pilot proposed",
+   "amount": 168000,
+   "amount_text": "$168K",
+   "contact": "last contact 15 days ago",
+   "status": "Pilot proposed",
+   "push_tags": [
+    "QUIET"
+   ],
+   "days_in_stage": 15,
+   "limit": 16,
+   "close_date": "Dec 22",
+   "last_close_date": "Dec 22",
+   "tag_text": {
+    "QUIET": "Last contact 15 days ago; the limit is 14."
+   },
+   "tags": [
+    "QUIET",
+    "NOT A STEP"
+   ],
+   "note_tags": [
+    "NOT A STEP"
+   ],
+   "note_tag_text": {
+    "NOT A STEP": "The deal's own next step, \"Waiting on their partners\", is too vague to act on."
+   },
+   "next": "Next: reach the firm this week",
+   "next_source": "stage",
+   "next_source_label": "from the stage"
+  },
+  {
+   "id": "D5157",
+   "firm": "Firm 4466",
+   "city": "Omaha",
+   "owner": "Nora Kessel",
+   "stage": "Partner said yes",
+   "amount": 210000,
+   "amount_text": "$210K",
+   "contact": "last contact 3 days ago",
+   "status": "Partner said yes",
+   "push_tags": [
+    "NONE BOOKED"
+   ],
+   "days_in_stage": 12,
+   "limit": 15,
+   "close_date": "Dec 10",
+   "last_close_date": "Dec 10",
+   "tag_text": {
+    "NONE BOOKED": "Nothing on the calendar for this deal."
+   },
+   "tags": [
+    "NONE BOOKED"
+   ],
+   "note_tags": [],
+   "note_tag_text": {},
+   "next": "Next: answer the firm's open question",
+   "next_source": "notes",
+   "next_source_label": "from the notes"
+  },
+  {
+   "id": "D5185",
+   "firm": "Firm 6623",
+   "city": "Miami",
+   "owner": "Dev Ashworth",
+   "stage": "Partner said yes",
+   "amount": 198000,
+   "amount_text": "$198K",
+   "contact": "last contact 4 days ago",
+   "status": "Partner said yes",
+   "push_tags": [
+    "NONE BOOKED"
+   ],
+   "days_in_stage": 4,
+   "limit": 15,
+   "close_date": "Dec 17",
+   "last_close_date": "Dec 17",
+   "tag_text": {
+    "NONE BOOKED": "Nothing on the calendar for this deal."
+   },
+   "tags": [
+    "NONE BOOKED",
+    "STEP DONE"
+   ],
+   "note_tags": [
+    "STEP DONE"
+   ],
+   "note_tag_text": {
+    "STEP DONE": "The deal's own next step, \"Call Myra about the start date\", is done or called off, by the latest note."
+   },
+   "next": "Next: book the next call",
+   "next_source": "stage",
+   "next_source_label": "from the stage"
+  }
+ ],
+ "chart": [
+  {
+   "week": "Aug 31",
+   "week_end": "Sep 6",
+   "count": 0,
+   "last": false,
+   "rows": []
+  },
+  {
+   "week": "Sep 7",
+   "week_end": "Sep 13",
+   "count": 2,
+   "last": false,
+   "rows": [
+    {
+     "id": "D5059",
+     "firm": "Firm 5167",
+     "city": "Phoenix",
+     "owner": "Dev Ashworth",
+     "stage": "Lost",
+     "amount": 231000,
+     "amount_text": "$231K",
+     "date": "Sep 8"
+    },
+    {
+     "id": "D5061",
+     "firm": "Firm 5091",
+     "city": "Baton Rouge",
+     "owner": "Lina Tolliver",
+     "stage": "Lost",
+     "amount": 216000,
+     "amount_text": "$216K",
+     "date": "Sep 10"
+    }
+   ]
+  },
+  {
+   "week": "Sep 14",
+   "week_end": "Sep 20",
+   "count": 1,
+   "last": false,
+   "rows": [
+    {
+     "id": "D5060",
+     "firm": "Firm 8283",
+     "city": "Jackson",
+     "owner": "Nora Kessel",
+     "stage": "Won",
+     "amount": 210000,
+     "amount_text": "$210K",
+     "date": "Sep 15"
+    }
+   ]
+  },
+  {
+   "week": "Sep 21",
+   "week_end": "Sep 27",
+   "count": 2,
+   "last": false,
+   "rows": [
+    {
+     "id": "D5071",
+     "firm": "Firm 6575",
+     "city": "Charlotte",
+     "owner": "Nora Kessel",
+     "stage": "Lost",
+     "amount": 243000,
+     "amount_text": "$243K",
+     "date": "Sep 24"
+    },
+    {
+     "id": "D5073",
+     "firm": "Firm 1542",
+     "city": "Memphis",
+     "owner": "Rosalind Whitcombe",
+     "stage": "Won",
+     "amount": 162000,
+     "amount_text": "$162K",
+     "date": "Sep 23"
+    }
+   ]
+  },
+  {
+   "week": "Sep 28",
+   "week_end": "Oct 4",
+   "count": 9,
+   "last": false,
+   "rows": [
+    {
+     "id": "D5065",
+     "firm": "Firm 2955",
+     "city": "Louisville",
+     "owner": "Nora Kessel",
+     "stage": "Partner said yes",
+     "amount": 180000,
+     "amount_text": "$180K",
+     "date": "Sep 28"
+    },
+    {
+     "id": "D5074",
+     "firm": "Firm 8259",
+     "city": "Shreveport",
+     "owner": "Dev Ashworth",
+     "stage": "Won",
+     "amount": 150000,
+     "amount_text": "$150K",
+     "date": "Oct 1"
+    },
+    {
+     "id": "D5085",
+     "firm": "Firm 1359",
+     "city": "Pittsburgh",
+     "owner": "Lina Tolliver",
+     "stage": "Won",
+     "amount": 234000,
+     "amount_text": "$234K",
+     "date": "Sep 29"
+    },
+    {
+     "id": "D5090",
+     "firm": "Firm 6562",
+     "city": "Lexington",
+     "owner": "Lina Tolliver",
+     "stage": "Lost",
+     "amount": 384000,
+     "amount_text": "$384K",
+     "date": "Sep 29"
+    },
+    {
+     "id": "D5091",
+     "firm": "Firm 8503",
+     "city": "Denver",
+     "owner": "Lina Tolliver",
+     "stage": "Lost",
+     "amount": 336000,
+     "amount_text": "$336K",
+     "date": "Sep 29"
+    },
+    {
+     "id": "D5098",
+     "firm": "Firm 4836",
+     "city": "St. Louis",
+     "owner": "Nora Kessel",
+     "stage": "Won",
+     "amount": 180000,
+     "amount_text": "$180K",
+     "date": "Oct 3"
+    },
+    {
+     "id": "D5106",
+     "firm": "Firm 9023",
+     "city": "McAllen",
+     "owner": "Rosalind Whitcombe",
+     "stage": "Won",
+     "amount": 390000,
+     "amount_text": "$390K",
+     "date": "Oct 3"
+    },
+    {
+     "id": "D5109",
+     "firm": "Firm 3636",
+     "city": "Dallas",
+     "owner": "Nora Kessel",
+     "stage": "Lost",
+     "amount": 156000,
+     "amount_text": "$156K",
+     "date": "Oct 4"
+    },
+    {
+     "id": "D5111",
+     "firm": "Firm 7622",
+     "city": "Shreveport",
+     "owner": "Dev Ashworth",
+     "stage": "Lost",
+     "amount": 300000,
+     "amount_text": "$300K",
+     "date": "Oct 2"
+    }
+   ]
+  },
+  {
+   "week": "Oct 5",
+   "week_end": "Oct 11",
+   "count": 6,
+   "last": false,
+   "rows": [
+    {
+     "id": "D5077",
+     "firm": "Firm 3390",
+     "city": "Pittsburgh",
+     "owner": "Dev Ashworth",
+     "stage": "Partner said yes",
+     "amount": 180000,
+     "amount_text": "$180K",
+     "date": "Oct 5"
+    },
+    {
+     "id": "D5082",
+     "firm": "Firm 5342",
+     "city": "Boise",
+     "owner": "Lina Tolliver",
+     "stage": "Order form sent",
+     "amount": 252000,
+     "amount_text": "$252K",
+     "date": "Oct 6"
+    },
+    {
+     "id": "D5089",
+     "firm": "Firm 5995",
+     "city": "Albuquerque",
+     "owner": "Nora Kessel",
+     "stage": "Order form sent",
+     "amount": 231000,
+     "amount_text": "$231K",
+     "date": "Oct 7"
+    },
+    {
+     "id": "D5094",
+     "firm": "Firm 8727",
+     "city": "Jackson",
+     "owner": "Rosalind Whitcombe",
+     "stage": "Order form sent",
+     "amount": 180000,
+     "amount_text": "$180K",
+     "date": "Oct 8"
+    },
+    {
+     "id": "D5101",
+     "firm": "Firm 3216",
+     "city": "Lexington",
+     "owner": "Lina Tolliver",
+     "stage": "Order form sent",
+     "amount": 240000,
+     "amount_text": "$240K",
+     "date": "Oct 9"
+    },
+    {
+     "id": "D5103",
+     "firm": "Firm 3156",
+     "city": "Savannah",
+     "owner": "Rosalind Whitcombe",
+     "stage": "Order form sent",
+     "amount": 234000,
+     "amount_text": "$234K",
+     "date": "Oct 9"
+    }
+   ]
+  },
+  {
+   "week": "Oct 12",
+   "week_end": "Oct 18",
+   "count": 13,
+   "last": false,
+   "rows": [
+    {
+     "id": "D5115",
+     "firm": "Firm 9404",
+     "city": "Milwaukee",
+     "owner": "Dev Ashworth",
+     "stage": "Order form sent",
+     "amount": 198000,
+     "amount_text": "$198K",
+     "date": "Oct 12"
+    },
+    {
+     "id": "D5118",
+     "firm": "Firm 7817",
+     "city": "Austin",
+     "owner": "Nora Kessel",
+     "stage": "Pilot proposed",
+     "amount": 216000,
+     "amount_text": "$216K",
+     "date": "Oct 13"
+    },
+    {
+     "id": "D5125",
+     "firm": "Firm 7518",
+     "city": "Fresno",
+     "owner": "Dev Ashworth",
+     "stage": "Order form sent",
+     "amount": 156000,
+     "amount_text": "$156K",
+     "date": "Oct 13"
+    },
+    {
+     "id": "D5129",
+     "firm": "Firm 7449",
+     "city": "Richmond",
+     "owner": "Lina Tolliver",
+     "stage": "Order form sent",
+     "amount": 243000,
+     "amount_text": "$243K",
+     "date": "Oct 13"
+    },
+    {
+     "id": "D5133",
+     "firm": "Firm 4564",
+     "city": "Nashville",
+     "owner": "Dev Ashworth",
+     "stage": "Order form sent",
+     "amount": 216000,
+     "amount_text": "$216K",
+     "date": "Oct 14"
+    },
+    {
+     "id": "D5135",
+     "firm": "Firm 9701",
+     "city": "Detroit",
+     "owner": "Nora Kessel",
+     "stage": "Partner said yes",
+     "amount": 240000,
+     "amount_text": "$240K",
+     "date": "Oct 14"
+    },
+    {
+     "id": "D5136",
+     "firm": "Firm 4643",
+     "city": "Knoxville",
+     "owner": "Lina Tolliver",
+     "stage": "Order form sent",
+     "amount": 150000,
+     "amount_text": "$150K",
+     "date": "Oct 15"
+    },
+    {
+     "id": "D5138",
+     "firm": "Firm 8245",
+     "city": "Mobile",
+     "owner": "Dev Ashworth",
+     "stage": "Order form sent",
+     "amount": 234000,
+     "amount_text": "$234K",
+     "date": "Oct 15"
+    },
+    {
+     "id": "D5140",
+     "firm": "Firm 1244",
+     "city": "Baltimore",
+     "owner": "Dev Ashworth",
+     "stage": "Partner said yes",
+     "amount": 210000,
+     "amount_text": "$210K",
+     "date": "Oct 15"
+    },
+    {
+     "id": "D5144",
+     "firm": "Firm 1387",
+     "city": "Little Rock",
+     "owner": "Nora Kessel",
+     "stage": "Order form sent",
+     "amount": 195000,
+     "amount_text": "$195K",
+     "date": "Oct 16"
+    },
+    {
+     "id": "D5147",
+     "firm": "Firm 2935",
+     "city": "Kansas City",
+     "owner": "Lina Tolliver",
+     "stage": "Order form sent",
+     "amount": 270000,
+     "amount_text": "$270K",
+     "date": "Oct 16"
+    },
+    {
+     "id": "D5151",
+     "firm": "Firm 9440",
+     "city": "Jacksonville",
+     "owner": "Dev Ashworth",
+     "stage": "Won",
+     "amount": 150000,
+     "amount_text": "$150K",
+     "date": "Oct 17"
+    },
+    {
+     "id": "D5177",
+     "firm": "Firm 5603",
+     "city": "San Diego",
+     "owner": "Rosalind Whitcombe",
+     "stage": "Lost",
+     "amount": 405000,
+     "amount_text": "$405K",
+     "date": "Oct 16"
+    }
+   ]
+  },
+  {
+   "week": "Oct 19",
+   "week_end": "Oct 25",
+   "count": 9,
+   "last": false,
+   "rows": [
+    {
+     "id": "D5155",
+     "firm": "Firm 3749",
+     "city": "Atlanta",
+     "owner": "Rosalind Whitcombe",
+     "stage": "Order form sent",
+     "amount": 231000,
+     "amount_text": "$231K",
+     "date": "Oct 19"
+    },
+    {
+     "id": "D5156",
+     "firm": "Firm 2375",
+     "city": "Tucson",
+     "owner": "Lina Tolliver",
+     "stage": "Partner said yes",
+     "amount": 240000,
+     "amount_text": "$240K",
+     "date": "Oct 19"
+    },
+    {
+     "id": "D5157",
+     "firm": "Firm 4466",
+     "city": "Omaha",
+     "owner": "Nora Kessel",
+     "stage": "Partner said yes",
+     "amount": 210000,
+     "amount_text": "$210K",
+     "date": "Oct 19"
+    },
+    {
+     "id": "D5162",
+     "firm": "Firm 6036",
+     "city": "Baltimore",
+     "owner": "Rosalind Whitcombe",
+     "stage": "Partner said yes",
+     "amount": 165000,
+     "amount_text": "$165K",
+     "date": "Oct 20"
+    },
+    {
+     "id": "D5163",
+     "firm": "Firm 2422",
+     "city": "Miami",
+     "owner": "Dev Ashworth",
+     "stage": "Partner said yes",
+     "amount": 198000,
+     "amount_text": "$198K",
+     "date": "Oct 20"
+    },
+    {
+     "id": "D5166",
+     "firm": "Firm 1022",
+     "city": "Cincinnati",
+     "owner": "Rosalind Whitcombe",
+     "stage": "Pilot proposed",
+     "amount": 168000,
+     "amount_text": "$168K",
+     "date": "Oct 21"
+    },
+    {
+     "id": "D5167",
+     "firm": "Firm 1706",
+     "city": "San Diego",
+     "owner": "Lina Tolliver",
+     "stage": "Partner said yes",
+     "amount": 216000,
+     "amount_text": "$216K",
+     "date": "Oct 21"
+    },
+    {
+     "id": "D5169",
+     "firm": "Firm 7985",
+     "city": "Knoxville",
+     "owner": "Nora Kessel",
+     "stage": "Partner said yes",
+     "amount": 180000,
+     "amount_text": "$180K",
+     "date": "Oct 22"
+    },
+    {
+     "id": "D5173",
+     "firm": "Firm 4293",
+     "city": "Denver",
+     "owner": "Lina Tolliver",
+     "stage": "Partner said yes",
+     "amount": 210000,
+     "amount_text": "$210K",
+     "date": "Oct 23"
+    }
+   ]
+  },
+  {
+   "week": "Oct 26",
+   "week_end": "Nov 1",
+   "count": 5,
+   "last": false,
+   "rows": [
+    {
+     "id": "D5181",
+     "firm": "Firm 6523",
+     "city": "Fresno",
+     "owner": "Nora Kessel",
+     "stage": "Pilot proposed",
+     "amount": 198000,
+     "amount_text": "$198K",
+     "date": "Oct 26"
+    },
+    {
+     "id": "D5185",
+     "firm": "Firm 6623",
+     "city": "Miami",
+     "owner": "Dev Ashworth",
+     "stage": "Partner said yes",
+     "amount": 198000,
+     "amount_text": "$198K",
+     "date": "Oct 26"
+    },
+    {
+     "id": "D5187",
+     "firm": "Firm 1888",
+     "city": "Salt Lake City",
+     "owner": "Nora Kessel",
+     "stage": "Pilot proposed",
+     "amount": 216000,
+     "amount_text": "$216K",
+     "date": "Oct 27"
+    },
+    {
+     "id": "D5190",
+     "firm": "Firm 9335",
+     "city": "San Diego",
+     "owner": "Lina Tolliver",
+     "stage": "Pilot proposed",
+     "amount": 195000,
+     "amount_text": "$195K",
+     "date": "Oct 28"
+    },
+    {
+     "id": "D5201",
+     "firm": "Firm 7169",
+     "city": "Spokane",
+     "owner": "Dev Ashworth",
+     "stage": "Pilot proposed",
+     "amount": 180000,
+     "amount_text": "$180K",
+     "date": "Oct 29"
+    }
+   ]
+  },
+  {
+   "week": "Nov 2",
+   "week_end": "Nov 8",
+   "count": 4,
+   "last": false,
+   "rows": [
+    {
+     "id": "D5204",
+     "firm": "Firm 2347",
+     "city": "San Antonio",
+     "owner": "Dev Ashworth",
+     "stage": "Qualified",
+     "amount": 240000,
+     "amount_text": "$240K",
+     "date": "Nov 4"
+    },
+    {
+     "id": "D5208",
+     "firm": "Firm 1671",
+     "city": "Las Vegas",
+     "owner": "Rosalind Whitcombe",
+     "stage": "Pilot proposed",
+     "amount": 600,
+     "amount_text": "$600",
+     "date": "Nov 3"
+    },
+    {
+     "id": "D5212",
+     "firm": "Firm 9136",
+     "city": "Knoxville",
+     "owner": "Lina Tolliver",
+     "stage": "Pilot proposed",
+     "amount": 243000,
+     "amount_text": "$243K",
+     "date": "Nov 2"
+    },
+    {
+     "id": "D5216",
+     "firm": "Firm 5343",
+     "city": "Boise",
+     "owner": "Nora Kessel",
+     "stage": "Pilot proposed",
+     "amount": 198000,
+     "amount_text": "$198K",
+     "date": "Nov 2"
+    }
+   ]
+  },
+  {
+   "week": "Nov 9",
+   "week_end": "Nov 15",
+   "count": 11,
+   "last": false,
+   "rows": [
+    {
+     "id": "D5222",
+     "firm": "Firm 9287",
+     "city": "Chattanooga",
+     "owner": "Dev Ashworth",
+     "stage": "Pilot proposed",
+     "amount": 231000,
+     "amount_text": "$231K",
+     "date": "Nov 9"
+    },
+    {
+     "id": "D5225",
+     "firm": "Firm 8306",
+     "city": "El Paso",
+     "owner": "Rosalind Whitcombe",
+     "stage": "Pilot proposed",
+     "amount": 198000,
+     "amount_text": "$198K",
+     "date": "Nov 9"
+    },
+    {
+     "id": "D5226",
+     "firm": "Firm 9879",
+     "city": "Richmond",
+     "owner": "Rosalind Whitcombe",
+     "stage": "Qualified",
+     "amount": 231000,
+     "amount_text": "$231K",
+     "date": "Nov 13"
+    },
+    {
+     "id": "D5230",
+     "firm": "Firm 3337",
+     "city": "Phoenix",
+     "owner": "Dev Ashworth",
+     "stage": "Qualified",
+     "amount": 216000,
+     "amount_text": "$216K",
+     "date": "Nov 13"
+    },
+    {
+     "id": "D5233",
+     "firm": "Firm 4072",
+     "city": "Savannah",
+     "owner": "Rosalind Whitcombe",
+     "stage": "Pilot proposed",
+     "amount": 210000,
+     "amount_text": "$210K",
+     "date": "Nov 9"
+    },
+    {
+     "id": "D5235",
+     "firm": "Firm 2732",
+     "city": "Miami",
+     "owner": "Lina Tolliver",
+     "stage": "Pilot proposed",
+     "amount": 156000,
+     "amount_text": "$156K",
+     "date": "Nov 10"
+    },
+    {
+     "id": "D5237",
+     "firm": "Firm 3935",
+     "city": "St. Louis",
+     "owner": "Nora Kessel",
+     "stage": "Qualified",
+     "amount": 216000,
+     "amount_text": "$216K",
+     "date": "Nov 13"
+    },
+    {
+     "id": "D5239",
+     "firm": "Firm 5773",
+     "city": "McAllen",
+     "owner": "Rosalind Whitcombe",
+     "stage": "Qualified",
+     "amount": 270000,
+     "amount_text": "$270K",
+     "date": "Nov 13"
+    },
+    {
+     "id": "D5246",
+     "firm": "Firm 9491",
+     "city": "Tucson",
+     "owner": "Nora Kessel",
+     "stage": "Qualified",
+     "amount": 195000,
+     "amount_text": "$195K",
+     "date": "Nov 13"
+    },
+    {
+     "id": "D5247",
+     "firm": "Firm 9896",
+     "city": "Charlotte",
+     "owner": "Dev Ashworth",
+     "stage": "Lost",
+     "amount": 180000,
+     "amount_text": "$180K",
+     "date": "Nov 13"
+    },
+    {
+     "id": "D5249",
+     "firm": "Firm 2488",
+     "city": "Baton Rouge",
+     "owner": "Lina Tolliver",
+     "stage": "Qualified",
+     "amount": 264000,
+     "amount_text": "$264K",
+     "date": "Nov 13"
+    }
+   ]
+  },
+  {
+   "week": "Nov 16",
+   "week_end": "Nov 22",
+   "count": 7,
+   "last": true,
+   "rows": [
+    {
+     "id": "D5242",
+     "firm": "Firm 4948",
+     "city": "Milwaukee",
+     "owner": "Dev Ashworth",
+     "stage": "Qualified",
+     "amount": 210000,
+     "amount_text": "$210K",
+     "date": "Nov 17"
+    },
+    {
+     "id": "D5259",
+     "firm": "Firm 8153",
+     "city": "Richmond",
+     "owner": "Rosalind Whitcombe",
+     "stage": "Qualified",
+     "amount": 156000,
+     "amount_text": "$156K",
+     "date": "Nov 19"
+    },
+    {
+     "id": "D5270",
+     "firm": "Firm 9553",
+     "city": "El Paso",
+     "owner": "Lina Tolliver",
+     "stage": "Qualified",
+     "amount": 264000,
+     "amount_text": "$264K",
+     "date": "Nov 19"
+    },
+    {
+     "id": "D5278",
+     "firm": "Firm 2111",
+     "city": "Detroit",
+     "owner": "Lina Tolliver",
+     "stage": "Qualified",
+     "amount": 180000,
+     "amount_text": "$180K",
+     "date": "Nov 16"
+    },
+    {
+     "id": "D5284",
+     "firm": "Firm 8903",
+     "city": "Spokane",
+     "owner": "Dev Ashworth",
+     "stage": "Qualified",
+     "amount": 270000,
+     "amount_text": "$270K",
+     "date": "Nov 18"
+    },
+    {
+     "id": "D5295",
+     "firm": "Firm 8165",
+     "city": "Raleigh",
+     "owner": "Nora Kessel",
+     "stage": "Qualified",
+     "amount": 252000,
+     "amount_text": "$252K",
+     "date": "Nov 20"
+    },
+    {
+     "id": "D5301",
+     "firm": "Firm 4226",
+     "city": "Tulsa",
+     "owner": "Lina Tolliver",
+     "stage": "Qualified",
+     "amount": 165000,
+     "amount_text": "$165K",
+     "date": "Nov 17"
+    }
+   ]
+  }
+ ],
+ "chart_rule": "Deals that entered Qualified"
+}

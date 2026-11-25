@@ -1,0 +1,49 @@
+{
+ "note": "Fingerprints of locked files; tests fail if one changes.",
+ "stages": {
+  "definitions": {
+   "locked_at": "2026-11-24T19:29:15",
+   "files": {
+    "DEFINITIONS.md": "c6f6a8bd225678422e8b320dd1e52e54db574e5df9ab10aea764581b3904a83c",
+    "sample/RULES.md": "b0f36ebc4fda3ad1dac5d29b883d39f77cee0a447853eb3c96845b220adbe904",
+    "tests/LABELING.md": "b188ec4ae8d97c317aeb576c4ac1d64947d478c0d44b9d3dd51f8348e57587f7",
+    "sample/team.csv": "e96db3463335b3918e4ffb961e26b4c208efb2cc242c6d03e5d6b8ce918c099a",
+    "limits.json": "b71c86be63eb235c0aa16aba4e2d2f8345ffc431c92ffef64b24907ef9c4002d",
+    "check_keys.py": "c30f2c9065b55ac6c4263229332f0830e1214403c0bd6964f59a931d1ab93ce5"
+   }
+  },
+  "scored": {
+   "locked_at": "2026-11-24T19:59:44",
+   "files": {
+    "engine.py": "21b95a059fa135d42455c4386ff038d0fe937b541f1eb92e1492402a16c0bd65",
+    "recount.py": "8ca02b93c4ec207728d051e0a122d1245919d0fa756473b7a5040b665ad260ea",
+    "pipeline.py": "ca6b1ccc0ef8b4feb52032d6a8e48c2d70a9ef32e2d3af90566af1c20c060eba",
+    "notes_check.py": "16197b806039d07e54679f57e29ae6060602f3064458163f35acab48f4233c9e",
+    "jev_check.py": "0fc7103f153ff797abbb63bc13aececfde4110070a8b9a56f9745c9246014441",
+    "questions.json": "99f82c9af53a4d97a952c376326cce17c59076f7e5af8ee019e1068de038a8d1",
+    "settings.json": "ca5782430bbd8e56dd85b63ea7edc9d3177815e876368d83153efd5f780fb2df",
+    "wording.json": "eaf05a25bc87c81913b209cd51801837d9cd7a30827b2b2c3ed7173f6dd72636",
+    "definitions.json": "9b8b937897e0da996125cc85f06bae310c460630bacd2f4a804dc35ddc58792c",
+    "score.py": "007053b2f1e4f52f0f9a19e714fbb02ca4d41d026236e20815df817b4767df8d",
+    "baseline.py": "dcb16a1b06491a12269558be1c4912de5fd760f934bbc3b4e68ceb04733d3f49",
+    "lock.py": "aeb5388fa1163c04148e44d159eecdb05a3f6bbdf22cafb203c1dc8db48da735",
+    "tests/compare.py": "48b2d28ff89cfd437ce65c750997320d2d0407433a7172e41dc3115594ea593d",
+    "tests/test_join.py": "4e6b182bc5c99f2cb47a0defdb2d4940a19c659d1f7c4838a52e6f7b0afca93a",
+    "prompts/CHANGELOG.md": "7fe4203c2012ac5fbdc7912e9fe4d751d32acab3966f39183f2819c6eb65cbc0",
+    "tests/key-changes-before-lock.md": "a473f126fc1d8627036a56c1d3ab73232b6c9adf3f1601fb8a30fff749033139",
+    "tests/keys/scored.json": "1891104feb91759375ee57ee40f712f70bb541337c525d27483dd0566e3a1aaa",
+    "tests/keys/scored-original.json": "cec95a2647f642b9b5cccf23568e9aa169967ed0552b48ab0cec9ce6c4a88726",
+    "tests/keys/scored-openai-notes.json": "479107102e68d7178b20ee6c4a37a2ac9da08ccea49c4d45772f31e690859e9c",
+    "tests/keys/other.json": "21a33bd42a6d54650eb955b1d72732cb6e5e3d59577c74067158c02cf2e8af1f",
+    "tests/keys/other-original.json": "42029869105487aecc0b98b44058d2c6409a5c9cc35f9c0c9616c4f2304794a3",
+    "sample/scored/deals-this-week.csv": "12fcec89a10b91ce8f715a01d80d24e011aadc6f4f8a06cabf181e964467af2d",
+    "sample/scored/deals-last-week.csv": "7253bd8ad07b3563a6b07e0368fb7a29bfa525fad1db5f1ff5154173d16bff87",
+    "sample/scored/firms.csv": "39fea33e6b59e9cb863571cf0942cda229209e6a87725cb9994f6ea08d4f60f8",
+    "sample/scored/notes.csv": "acffc3443d102b5aab1bfd2dcebc17df60039e795f26397bb344afd3070d60f1",
+    "sample/other/deals-this-week.csv": "138cf167f6f93a0959d050a77dc39b99a2617f309341ffe0ec025a0a64e80372",
+    "sample/other/deals-last-week.csv": "aa572e7e4c57e0c9091e7317e82ef13f1b14e79c062e5cc9cf25edf9d39cbca6",
+    "sample/other/firms.csv": "2f385ffc5f1db386da04330ac685b5dc4b1a68d3c9ba7649acb97d839f92a3c9"
+   }
+  }
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "note": "Next-step wording (PLAN section 3.6). Code picks one line; nothing here is written by a model. Each line is at most 38 characters with \"Next: \".",
+ "waiting": {
+  "signer": "Next: send the scope to the partner",
+  "question": "Next: answer the firm's open question",
+  "order_form": "Next: send the order form",
+  "signature": "Next: call about the signature",
+  "quiet": "Next: call, then one short email",
+  "later_date": "Next: set a reminder for their date"
+ },
+ "by_stage": {
+  "Qualified": "Next: send the pilot scope",
+  "Pilot proposed": "Next: ask for a yes on the pilot",
+  "Partner said yes": "Next: send the order form",
+  "Order form sent": "Next: call about the signature"
+ },
+ "QUIET": "Next: reach the firm this week",
+ "NONE BOOKED": "Next: book the next call",
+ "labels": {"notes": "from the notes", "stage": "from the stage"}
+}

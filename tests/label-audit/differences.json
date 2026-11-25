@@ -1,0 +1,307 @@
+{
+  "about": "Label audit, scored export. OpenAI's model labeled 20 of the 45 Claude-family noted deals from LABELING.md (with the stage lines and option meanings it refers to), without the key. Each difference below is unsettled: it waits for a separate reader. The data helper has not changed the key.",
+  "draw": {
+    "seed": 20261124,
+    "population": "the 45 Claude-family open clean deals with notes, sorted by deal ID",
+    "count": 20
+  },
+  "raw_agreement": {
+    "fields_agreeing": 71,
+    "fields_total": 80,
+    "by_field": {
+      "step": 16,
+      "stage_from_notes": 20,
+      "waiting_said": 19,
+      "waiting": 16
+    }
+  },
+  "differences": [
+    {
+      "deal_id": "D5065",
+      "audit_label_id": "A01",
+      "recorded_stage": "Partner said yes",
+      "next_step": "Send order form to Mavis",
+      "notes": [
+        {
+          "timestamp": "2026-11-03 14:10",
+          "author": "Nora",
+          "body": "Mavis, the managing partner, said yes to the pilot scope and price."
+        },
+        {
+          "timestamp": "2026-11-17 10:00",
+          "author": "Nora",
+          "body": "The order form still hasn't gone out; we're waiting on our ops team for a start date."
+        }
+      ],
+      "data_helper_key": {
+        "step": "real",
+        "stage_from_notes": null,
+        "waiting": "order_form",
+        "waiting_said": true
+      },
+      "audit_labels": {
+        "step": "real",
+        "stage_from_notes": null,
+        "waiting": "other",
+        "waiting_said": true
+      },
+      "fields_that_differ": {
+        "waiting": {
+          "data_helper_key": "order_form",
+          "audit_label": "other"
+        }
+      }
+    },
+    {
+      "deal_id": "D5077",
+      "audit_label_id": "A02",
+      "recorded_stage": "Partner said yes",
+      "next_step": "Check in with Vance",
+      "notes": [
+        {
+          "timestamp": "2026-11-06 11:10",
+          "author": "Dev",
+          "body": "Vance, the named partner, said yes to the scope and price on today's call."
+        },
+        {
+          "timestamp": "2026-11-18 15:00",
+          "author": "Dev",
+          "body": "Vance asked whether the pilot can start with records only and add intake later. I owe him an answer."
+        }
+      ],
+      "data_helper_key": {
+        "step": "not_a_step",
+        "stage_from_notes": null,
+        "waiting": "question",
+        "waiting_said": true
+      },
+      "audit_labels": {
+        "step": "real",
+        "stage_from_notes": null,
+        "waiting": "question",
+        "waiting_said": true
+      },
+      "fields_that_differ": {
+        "step": {
+          "data_helper_key": "not_a_step",
+          "audit_label": "real"
+        }
+      }
+    },
+    {
+      "deal_id": "D5138",
+      "audit_label_id": "A06",
+      "recorded_stage": "Order form sent",
+      "next_step": "Follow up",
+      "notes": [
+        {
+          "timestamp": "2026-11-12 15:10",
+          "author": "Dev",
+          "body": "Order form sent to Felicity for signature; intake pilot, about 30 cases a month."
+        },
+        {
+          "timestamp": "2026-11-20 11:00",
+          "author": "Dev",
+          "body": "Felicity wants a later start, so the close date moves to Dec 9. She says she'll sign this week."
+        }
+      ],
+      "data_helper_key": {
+        "step": "not_a_step",
+        "stage_from_notes": null,
+        "waiting": "signature",
+        "waiting_said": true
+      },
+      "audit_labels": {
+        "step": "real",
+        "stage_from_notes": null,
+        "waiting": "signature",
+        "waiting_said": true
+      },
+      "fields_that_differ": {
+        "step": {
+          "data_helper_key": "not_a_step",
+          "audit_label": "real"
+        }
+      }
+    },
+    {
+      "deal_id": "D5140",
+      "audit_label_id": "A07",
+      "recorded_stage": "Partner said yes",
+      "next_step": "Confirm start date with Frida",
+      "notes": [
+        {
+          "timestamp": "2026-11-12 10:10",
+          "author": "Dev",
+          "body": "Frida, the managing partner, said yes to the pilot scope and price."
+        },
+        {
+          "timestamp": "2026-11-19 12:00",
+          "author": "Dev",
+          "body": "Frida confirmed a January 11 start. The order form is being drafted now."
+        }
+      ],
+      "data_helper_key": {
+        "step": "done",
+        "stage_from_notes": null,
+        "waiting": "order_form",
+        "waiting_said": true
+      },
+      "audit_labels": {
+        "step": "done",
+        "stage_from_notes": null,
+        "waiting": null,
+        "waiting_said": false
+      },
+      "fields_that_differ": {
+        "waiting_said": {
+          "data_helper_key": true,
+          "audit_label": false
+        },
+        "waiting": {
+          "data_helper_key": "order_form",
+          "audit_label": null
+        }
+      }
+    },
+    {
+      "deal_id": "D5225",
+      "audit_label_id": "A13",
+      "recorded_stage": "Pilot proposed",
+      "next_step": "Write up scope for Rosalie",
+      "notes": [
+        {
+          "timestamp": "2026-11-09 11:20",
+          "author": "Rosalind",
+          "body": "Consultation held with Rosalie, the managing partner. Intake help for about 30 cases a month."
+        },
+        {
+          "timestamp": "2026-11-17 15:10",
+          "author": "Rosalind",
+          "body": "Talked Rosalie through what a pilot would cover on today's call. Nothing in writing yet; she wants the written scope first."
+        }
+      ],
+      "data_helper_key": {
+        "step": "real",
+        "stage_from_notes": "Qualified",
+        "waiting": "signer",
+        "waiting_said": true
+      },
+      "audit_labels": {
+        "step": "real",
+        "stage_from_notes": "Qualified",
+        "waiting": "other",
+        "waiting_said": true
+      },
+      "fields_that_differ": {
+        "waiting": {
+          "data_helper_key": "signer",
+          "audit_label": "other"
+        }
+      }
+    },
+    {
+      "deal_id": "D5239",
+      "audit_label_id": "A16",
+      "recorded_stage": "Qualified",
+      "next_step": "Circle back next week",
+      "notes": [
+        {
+          "timestamp": "2026-11-13 14:20",
+          "author": "Rosalind",
+          "body": "Consultation held with Mona, the managing partner. Records requests are backed up; about 45 cases a month."
+        },
+        {
+          "timestamp": "2026-11-18 10:00",
+          "author": "Rosalind",
+          "body": "Mona asked what the price would be if they start at 30 cases a month and grow."
+        }
+      ],
+      "data_helper_key": {
+        "step": "not_a_step",
+        "stage_from_notes": null,
+        "waiting": "question",
+        "waiting_said": true
+      },
+      "audit_labels": {
+        "step": "real",
+        "stage_from_notes": null,
+        "waiting": "question",
+        "waiting_said": true
+      },
+      "fields_that_differ": {
+        "step": {
+          "data_helper_key": "not_a_step",
+          "audit_label": "real"
+        }
+      }
+    },
+    {
+      "deal_id": "D5284",
+      "audit_label_id": "A18",
+      "recorded_stage": "Qualified",
+      "next_step": "Check in after Thanksgiving",
+      "notes": [
+        {
+          "timestamp": "2026-11-10 10:10",
+          "author": "Dev",
+          "body": "Consultation booked with Josephine, the intake manager, for the 18th."
+        },
+        {
+          "timestamp": "2026-11-18 11:20",
+          "author": "Dev",
+          "body": "Consultation done with Josephine and Lloyd, the managing partner who signs. They asked us to come back after Thanksgiving before we send a scope."
+        }
+      ],
+      "data_helper_key": {
+        "step": "not_a_step",
+        "stage_from_notes": null,
+        "waiting": "later_date",
+        "waiting_said": true
+      },
+      "audit_labels": {
+        "step": "real",
+        "stage_from_notes": null,
+        "waiting": "later_date",
+        "waiting_said": true
+      },
+      "fields_that_differ": {
+        "step": {
+          "data_helper_key": "not_a_step",
+          "audit_label": "real"
+        }
+      }
+    },
+    {
+      "deal_id": "D5299",
+      "audit_label_id": "A19",
+      "recorded_stage": "Consultation booked",
+      "next_step": "Follow up with the agenda",
+      "notes": [
+        {
+          "timestamp": "2026-11-17 11:10",
+          "author": "Rosalind",
+          "body": "Booked the consultation for Nov 25 with Mirela, the firm's owner. She asked for an agenda ahead of the call."
+        }
+      ],
+      "data_helper_key": {
+        "step": "real",
+        "stage_from_notes": null,
+        "waiting": "nothing",
+        "waiting_said": true
+      },
+      "audit_labels": {
+        "step": "real",
+        "stage_from_notes": null,
+        "waiting": "other",
+        "waiting_said": true
+      },
+      "fields_that_differ": {
+        "waiting": {
+          "data_helper_key": "nothing",
+          "audit_label": "other"
+        }
+      }
+    }
+  ]
+}

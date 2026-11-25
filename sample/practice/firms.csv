@@ -1,0 +1,121 @@
+firm_id,name,domain,city
+C12973,Firm 9237,firm9237.example,Raleigh
+C13228,Firm 9724,firm9724.example,Tulsa
+C15607,Firm 7006,firm7006.example,Albuquerque
+C16177,Firm 3635,firm3635.example,McAllen
+C16478,Firm 9584,firm9584.example,Louisville
+C17272,Firm 2799,firm2799.example,Oklahoma City
+C18702,Firm 8706,firm8706.example,Memphis
+C19020,Firm 4150,firm4150.example,El Paso
+C19546,Firm 1395,firm1395.example,Tucson
+C20089,Firm 5570,firm5570.example,Charleston
+C20497,Firm 1850,firm1850.example,San Diego
+C20637,Firm 9314,firm9314.example,Cincinnati
+C21611,Firm 1901,firm1901.example,Dallas
+C21900,Firm 8012,firm8012.example,Kansas City
+C22147,Firm 6056,firm6056.example,Indianapolis
+C22982,Firm 8791,firm8791.example,Louisville
+C23049,Firm 5832,firm5832.example,Houston
+C23120,Firm 8186,firm8186.example,El Paso
+C25158,Firm 3481,firm3481.example,Cincinnati
+C25176,Firm 6239,firm6239.example,Cincinnati
+C27860,Firm 6267,firm6267.example,Cleveland
+C28421,Firm 9860,firm9860.example,Pittsburgh
+C28723,Firm 2576,firm2576.example,Sacramento
+C28783,Firm 3631,firm3631.example,Detroit
+C29225,Firm 1403,firm1403.example,Cincinnati
+C29256,Firm 5084,firm5084.example,Cleveland
+C29580,Firm 3585,firm3585.example,Nashville
+C30908,Firm 7842,firm7842.example,Charlotte
+C32364,Firm 4673,firm4673.example,Raleigh
+C33081,Firm 1945,firm1945.example,Kansas City
+C33140,Firm 2695,firm2695.example,Pittsburgh
+C33357,Firm 7183,firm7183.example,Birmingham
+C33981,Firm 4555,firm4555.example,Austin
+C35362,Firm 4538,firm4538.example,San Diego
+C35825,Firm 3228,firm3228.example,Indianapolis
+C35941,Firm 5681,firm5681.example,Baltimore
+C36722,Firm 5726,firm5726.example,Philadelphia
+C37299,Firm 8476,firm8476.example,Oklahoma City
+C37502,Firm 1975,firm1975.example,Albuquerque
+C37505,Firm 7406,firm7406.example,Kansas City
+C37693,Firm 4781,firm4781.example,Albuquerque
+C40337,Firm 6532,firm6532.example,Las Vegas
+C43605,Firm 8876,firm8876.example,Jacksonville
+C46315,Firm 3966,firm3966.example,Charleston
+C46572,Firm 2509,firm2509.example,Sacramento
+C47507,Firm 4128,firm4128.example,Savannah
+C48209,Firm 6017,firm6017.example,Tucson
+C48731,Firm 8235,firm8235.example,St. Louis
+C49288,Firm 8266,firm8266.example,Phoenix
+C50382,Firm 6318,firm6318.example,San Antonio
+C51329,Firm 9345,firm9345.example,Charlotte
+C51754,Firm 6646,firm6646.example,Raleigh
+C52718,Firm 5463,firm5463.example,San Diego
+C53220,Firm 2393,firm2393.example,Louisville
+C53416,Firm 3795,firm3795.example,Kansas City
+C54882,Firm 4411,firm4411.example,Tampa
+C55377,Firm 3134,firm3134.example,Austin
+C55452,Firm 8087,firm8087.example,Austin
+C58180,Firm 9625,firm9625.example,Oklahoma City
+C58330,Firm 4378,firm4378.example,Philadelphia
+C60517,Firm 9313,firm9313.example,Cleveland
+C60588,Firm 6062,firm6062.example,San Antonio
+C60840,Firm 9387,firm9387.example,Tulsa
+C60927,Firm 2537,firm2537.example,Louisville
+C61277,Firm 7799,firm7799.example,Sacramento
+C63558,Firm 3753,firm3753.example,Tucson
+C63627,Firm 8461,firm8461.example,Little Rock
+C65666,Firm 4252,firm4252.example,Charleston
+C68821,Firm 4586,firm4586.example,Detroit
+C70035,Firm 4410,firm4410.example,Tampa
+C70575,Firm 8526,firm8526.example,Philadelphia
+C71135,Firm 7268,firm7268.example,Milwaukee
+C72348,Firm 2209,firm2209.example,Orlando
+C73098,Firm 8776,firm8776.example,Milwaukee
+C73967,Firm 8426,firm8426.example,Orlando
+C75836,Firm 6338,firm6338.example,St. Louis
+C75886,Firm 2407,firm2407.example,Milwaukee
+C76511,Firm 5433,firm5433.example,Austin
+C76563,Firm 6513,firm6513.example,Baltimore
+C77120,Firm 5852,firm5852.example,Louisville
+C77557,Firm 2965,firm2965.example,Austin
+C77981,Firm 7643,firm7643.example,Columbus
+C78652,Firm 1642,firm1642.example,Louisville
+C78715,Firm 2117,firm2117.example,Las Vegas
+C79344,Firm 2753,firm2753.example,Baltimore
+C79632,Firm 8477,firm8477.example,Pittsburgh
+C80141,Firm 1586,firm1586.example,St. Louis
+C80778,Firm 4409,firm4409.example,Milwaukee
+C81430,Firm 9416,firm9416.example,Pittsburgh
+C82006,Firm 6895,firm6895.example,New Orleans
+C84208,Firm 7315,firm7315.example,Pittsburgh
+C86132,Firm 4045,firm4045.example,St. Louis
+C86736,Firm 8158,firm8158.example,Miami
+C87110,Firm 4346,firm4346.example,Sacramento
+C87122,Firm 4076,firm4076.example,Philadelphia
+C87131,Firm 3704,firm3704.example,Cleveland
+C89524,Firm 7282,firm7282.example,Jacksonville
+C89783,Firm 3085,firm3085.example,Philadelphia
+C90069,Firm 8830,firm8830.example,Fort Worth
+C90349,Firm 9282,firm9282.example,Raleigh
+C91256,Firm 7677,firm7677.example,Birmingham
+C91643,Firm 8501,firm8501.example,Denver
+C91756,Firm 8934,firm8934.example,Boise
+C92171,Firm 1325,firm1325.example,Albuquerque
+C92366,Firm 2089,firm2089.example,Sacramento
+C92940,Firm 6427,firm6427.example,Orlando
+C93331,Firm 1623,firm1623.example,Denver
+C93410,Firm 7338,firm7338.example,Denver
+C93483,Firm 1951,firm1951.example,New Orleans
+C93953,Firm 2060,firm2060.example,Spokane
+C94969,Firm 6477,firm6477.example,Charleston
+C95746,Firm 9758,firm9758.example,New Orleans
+C96350,Firm 2383,firm2383.example,Baton Rouge
+C96573,Firm 1120,firm1120.example,Austin
+C97061,Firm 4673,firm4673.example,Raleigh
+C97808,Firm 1303,firm1303.example,Cleveland
+C98615,Firm 5463,firm5463.example,San Diego
+C98746,Firm 4375,firm4375.example,Atlanta
+C98989,Firm 7007,firm7007.example,St. Louis
+C99919,Firm 9729,firm9729.example,Denver

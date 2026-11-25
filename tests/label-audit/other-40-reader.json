@@ -1,0 +1,897 @@
+{
+  "export": "other-40",
+  "checked_on": "2026-11-24",
+  "reader": "fresh reader; worked from DEFINITIONS.md (3.0, 3.3, 3.4, 3.5), limits.json, sample/team.csv, tests/LABELING.md and the four files in this folder only",
+  "script": "(the reader's own script) (written from DEFINITIONS.md alone), (the reader's own script) (writes this file)",
+  "read_first": "The export files are ragged: 31 of 40 rows this week and 29 of 35 last week have 22 cells under the 21-column header. In most the 22nd cell is empty and nothing changes, but in five Lost rows this week (D8009, D8010, D8020, D8024, D8025) the Lost date is in the 22nd cell, so the entered_lost column is empty, and in D8005 the date meant for Pilot proposed lands under Partner said yes. This check reads each cell under its header, as 3.0 names the fields, and gives no meaning to a cell past the last column. D8005, D8009 and D8010 keep the key's reasons either way; D8020, D8024 and D8025 become H13. See alternative_reading for what a realigned reading would give; the key is wrong under either.",
+  "summary": {
+    "deals": 40,
+    "differences": 26,
+    "key_wrong": 26,
+    "reader_wrong_on_second_look": 0
+  },
+  "second_look": "Every difference was rechecked by hand against the rows: D8015's missing Date entered Qualified; the eleven OVER LIMIT day counts (export date minus Date entered Qualified, New York calendar dates, against the locked limit of 11); D8029's Date entered Qualified inside the week; the open value as 19 x 60,000; the counted-plus-held-out total against the export (40 deals, 2,364,000); each chart week's Mondays; and the push order keys. The three H13 calls rest on the column reading stated in read_first. No answer of the reader's was reversed.",
+  "my_answer": {
+    "export": "other-40",
+    "held_out": {
+      "D8001": "H1",
+      "D8002": "H2",
+      "D8003": "H3",
+      "D8004": "H4",
+      "D8005": "H5",
+      "D8007": "H6",
+      "D8008": "H7",
+      "D8009": "H8",
+      "D8010": "H9",
+      "D8011": "H10",
+      "D8012": "H11",
+      "D8013": "H12",
+      "D8014": "H13",
+      "D8015": "H13",
+      "D8016": "H15",
+      "D8020": "H13",
+      "D8024": "H13",
+      "D8025": "H13"
+    },
+    "push": {
+      "D8006": [
+        "OVER LIMIT"
+      ],
+      "D8026": [
+        "OVER LIMIT",
+        "QUIET"
+      ],
+      "D8027": [
+        "SLIPPED"
+      ],
+      "D8028": [
+        "QUIET",
+        "NONE BOOKED"
+      ],
+      "D8029": [
+        "SLIPPED",
+        "QUIET",
+        "NONE BOOKED"
+      ],
+      "D8030": [
+        "OVER LIMIT",
+        "QUIET",
+        "NONE BOOKED"
+      ],
+      "D8031": [
+        "OVER LIMIT"
+      ],
+      "D8032": [
+        "OVER LIMIT"
+      ],
+      "D8033": [
+        "OVER LIMIT"
+      ],
+      "D8034": [
+        "OVER LIMIT"
+      ],
+      "D8035": [
+        "OVER LIMIT"
+      ],
+      "D8036": [
+        "OVER LIMIT"
+      ],
+      "D8037": [
+        "OVER LIMIT"
+      ],
+      "D8038": [
+        "OVER LIMIT"
+      ],
+      "D8039": [
+        "OVER LIMIT"
+      ],
+      "D8040": [
+        "OVER LIMIT"
+      ]
+    },
+    "expected": {
+      "new_qualified": 5,
+      "moved_forward": 2,
+      "won": {
+        "count": 2,
+        "value": 120000
+      },
+      "lost": {
+        "count": 0,
+        "value": 0
+      },
+      "open": {
+        "count": 19,
+        "value": 1140000
+      },
+      "held_out": {
+        "count": 18,
+        "value": 1044000
+      },
+      "lost_before_qualified": {
+        "count": 0
+      },
+      "chart_new_qualified": [
+        {
+          "week_start": "2026-08-31",
+          "count": 4
+        },
+        {
+          "week_start": "2026-09-07",
+          "count": 1
+        },
+        {
+          "week_start": "2026-09-14",
+          "count": 1
+        },
+        {
+          "week_start": "2026-09-21",
+          "count": 0
+        },
+        {
+          "week_start": "2026-09-28",
+          "count": 1
+        },
+        {
+          "week_start": "2026-10-05",
+          "count": 2
+        },
+        {
+          "week_start": "2026-10-12",
+          "count": 1
+        },
+        {
+          "week_start": "2026-10-19",
+          "count": 1
+        },
+        {
+          "week_start": "2026-10-26",
+          "count": 1
+        },
+        {
+          "week_start": "2026-11-02",
+          "count": 0
+        },
+        {
+          "week_start": "2026-11-09",
+          "count": 1
+        },
+        {
+          "week_start": "2026-11-16",
+          "count": 5
+        }
+      ],
+      "card": {
+        "count": 16,
+        "value": 960000,
+        "stage": "Qualified",
+        "stage_count": 12
+      },
+      "push_order": [
+        "D8030",
+        "D8029",
+        "D8026",
+        "D8028",
+        "D8006",
+        "D8032",
+        "D8031",
+        "D8038",
+        "D8039",
+        "D8034",
+        "D8035",
+        "D8040",
+        "D8033",
+        "D8037",
+        "D8036",
+        "D8027"
+      ]
+    }
+  },
+  "differences": [
+    {
+      "deal": "D8015",
+      "field": "held_out",
+      "key_value": "H14",
+      "my_value": "H13",
+      "right": "mine",
+      "reason": "\"One reason per deal: the lowest rule number that applies\": its stage is Qualified with no Date entered Qualified, so H13 (\"the current stage has no Date entered\") applies before H14."
+    },
+    {
+      "deal": "D8020",
+      "field": "held_out",
+      "key_value": null,
+      "my_value": "H13",
+      "right": "mine",
+      "reason": "Its row has 22 cells under the 21-column header, so its Lost date (2026-11-20 11:00) sits past the last column and the entered_lost cell is empty; read by column as 3.0 reads the files, H13 holds it out because \"the current stage has no Date entered\", and no lower rule applies."
+    },
+    {
+      "deal": "D8024",
+      "field": "held_out",
+      "key_value": null,
+      "my_value": "H13",
+      "right": "mine",
+      "reason": "Its row has 22 cells under the 21-column header, so its Lost date (2026-11-21 10:00) sits past the last column and the entered_lost cell is empty; read by column as 3.0 reads the files, H13 holds it out because \"the current stage has no Date entered\", and no lower rule applies."
+    },
+    {
+      "deal": "D8025",
+      "field": "held_out",
+      "key_value": null,
+      "my_value": "H13",
+      "right": "mine",
+      "reason": "Its row has 22 cells under the 21-column header, so its Lost date (2026-10-15 10:00) sits past the last column and the entered_lost cell is empty; read by column as 3.0 reads the files, H13 holds it out because \"the current stage has no Date entered\", and no lower rule applies."
+    },
+    {
+      "deal": "D8006",
+      "field": "push",
+      "key_value": null,
+      "my_value": [
+        "OVER LIMIT"
+      ],
+      "right": "mine",
+      "reason": "\"OVER LIMIT: days in the current stage over its limit\": Qualified for 100 days against the locked Qualified limit of 11, and the deal passes every check."
+    },
+    {
+      "deal": "D8031",
+      "field": "push",
+      "key_value": null,
+      "my_value": [
+        "OVER LIMIT"
+      ],
+      "right": "mine",
+      "reason": "\"OVER LIMIT: days in the current stage over its limit\": Qualified for 84 days against the locked Qualified limit of 11, and the deal passes every check."
+    },
+    {
+      "deal": "D8032",
+      "field": "push",
+      "key_value": null,
+      "my_value": [
+        "OVER LIMIT"
+      ],
+      "right": "mine",
+      "reason": "\"OVER LIMIT: days in the current stage over its limit\": Qualified for 98 days against the locked Qualified limit of 11, and the deal passes every check."
+    },
+    {
+      "deal": "D8033",
+      "field": "push",
+      "key_value": null,
+      "my_value": [
+        "OVER LIMIT"
+      ],
+      "right": "mine",
+      "reason": "\"OVER LIMIT: days in the current stage over its limit\": Qualified for 42 days against the locked Qualified limit of 11, and the deal passes every check."
+    },
+    {
+      "deal": "D8034",
+      "field": "push",
+      "key_value": null,
+      "my_value": [
+        "OVER LIMIT"
+      ],
+      "right": "mine",
+      "reason": "\"OVER LIMIT: days in the current stage over its limit\": Qualified for 70 days against the locked Qualified limit of 11, and the deal passes every check."
+    },
+    {
+      "deal": "D8035",
+      "field": "push",
+      "key_value": null,
+      "my_value": [
+        "OVER LIMIT"
+      ],
+      "right": "mine",
+      "reason": "\"OVER LIMIT: days in the current stage over its limit\": Qualified for 56 days against the locked Qualified limit of 11, and the deal passes every check."
+    },
+    {
+      "deal": "D8036",
+      "field": "push",
+      "key_value": null,
+      "my_value": [
+        "OVER LIMIT"
+      ],
+      "right": "mine",
+      "reason": "\"OVER LIMIT: days in the current stage over its limit\": Qualified for 14 days against the locked Qualified limit of 11, and the deal passes every check."
+    },
+    {
+      "deal": "D8037",
+      "field": "push",
+      "key_value": null,
+      "my_value": [
+        "OVER LIMIT"
+      ],
+      "right": "mine",
+      "reason": "\"OVER LIMIT: days in the current stage over its limit\": Qualified for 28 days against the locked Qualified limit of 11, and the deal passes every check."
+    },
+    {
+      "deal": "D8038",
+      "field": "push",
+      "key_value": null,
+      "my_value": [
+        "OVER LIMIT"
+      ],
+      "right": "mine",
+      "reason": "\"OVER LIMIT: days in the current stage over its limit\": Qualified for 83 days against the locked Qualified limit of 11, and the deal passes every check."
+    },
+    {
+      "deal": "D8039",
+      "field": "push",
+      "key_value": null,
+      "my_value": [
+        "OVER LIMIT"
+      ],
+      "right": "mine",
+      "reason": "\"OVER LIMIT: days in the current stage over its limit\": Qualified for 77 days against the locked Qualified limit of 11, and the deal passes every check."
+    },
+    {
+      "deal": "D8040",
+      "field": "push",
+      "key_value": null,
+      "my_value": [
+        "OVER LIMIT"
+      ],
+      "right": "mine",
+      "reason": "\"OVER LIMIT: days in the current stage over its limit\": Qualified for 49 days against the locked Qualified limit of 11, and the deal passes every check."
+    },
+    {
+      "deal": null,
+      "field": "expected.moved_forward",
+      "key_value": 3,
+      "my_value": 2,
+      "right": "mine",
+      "reason": "Moved forward is \"never also New qualified\": D8029 has Date entered Qualified 2026-11-16 10:00 in the week, so only D8026 and D8027 count."
+    },
+    {
+      "deal": null,
+      "field": "expected.lost",
+      "key_value": {
+        "count": 2,
+        "value": 120000
+      },
+      "my_value": {
+        "count": 0,
+        "value": 0
+      },
+      "right": "mine",
+      "reason": "\"A held-out deal is out of every number\": the week's two qualified losses (D8020, D8024) are held out by H13 because their Lost dates sit past the header's last column."
+    },
+    {
+      "deal": null,
+      "field": "expected.open",
+      "key_value": {
+        "count": 19,
+        "value": 1320000
+      },
+      "my_value": {
+        "count": 19,
+        "value": 1140000
+      },
+      "right": "mine",
+      "reason": "\"Open pipeline: open deals in Qualified through Order form sent at the export; value and count\": 19 open deals at 60,000 each is 1,140,000, not 1,320,000."
+    },
+    {
+      "deal": null,
+      "field": "expected.held_out",
+      "key_value": {
+        "count": 15,
+        "value": 864000
+      },
+      "my_value": {
+        "count": 18,
+        "value": 1044000
+      },
+      "right": "mine",
+      "reason": "\"Held out: every held-out deal in this week's export; count and value\": the key's 15 plus three Lost rows at 60,000 each is 18 and 1,044,000, and counted 22 / 1,320,000 plus held out 18 / 1,044,000 equals the export's 40 / 2,364,000."
+    },
+    {
+      "deal": null,
+      "field": "expected.lost_before_qualified",
+      "key_value": {
+        "count": 1
+      },
+      "my_value": {
+        "count": 0
+      },
+      "right": "mine",
+      "reason": "The drawer line sits under \"Lost: qualified deals with Date entered Lost in the week\": the only Lost deal never qualified (D8025) entered Lost on 2026-10-15, outside the week, and is held out by H13 anyway."
+    },
+    {
+      "deal": null,
+      "field": "expected.card",
+      "key_value": {
+        "count": 5,
+        "value": 300000,
+        "stage": "Qualified",
+        "stage_count": 2
+      },
+      "my_value": {
+        "count": 16,
+        "value": 960000,
+        "stage": "Qualified",
+        "stage_count": 12
+      },
+      "right": "mine",
+      "reason": "\"The card: the number of deals on the push list; the sum of their amounts; the stage holding the most of them\": 16 deals, 960,000, Qualified with 12 (the key's own five deals have more in Pilot proposed than Qualified, so its stage was off even on its own list)."
+    },
+    {
+      "deal": null,
+      "field": "expected.push_order",
+      "key_value": [
+        "D8030",
+        "D8029",
+        "D8026",
+        "D8028",
+        "D8027"
+      ],
+      "my_value": [
+        "D8030",
+        "D8029",
+        "D8026",
+        "D8028",
+        "D8006",
+        "D8032",
+        "D8031",
+        "D8038",
+        "D8039",
+        "D8034",
+        "D8035",
+        "D8040",
+        "D8033",
+        "D8037",
+        "D8036",
+        "D8027"
+      ],
+      "right": "mine",
+      "reason": "\"List order: most tags first, then the deal's highest tag in this table order, then the longest days in stage\": the key's five keep their order and the eleven OVER LIMIT-only deals fall between D8028 and D8027, longest in stage first."
+    },
+    {
+      "deal": null,
+      "field": "expected.chart_new_qualified[2026-08-31]",
+      "key_value": 2,
+      "my_value": 4,
+      "right": "mine",
+      "reason": "\"deals with Date entered Qualified in that week, counted with this week's held-out status\": D8026, D8030, D8031 and D8038 all entered Qualified from Mon 2026-08-31 to Mon 2026-09-07 and pass every check."
+    },
+    {
+      "deal": null,
+      "field": "expected.chart_new_qualified[2026-09-07]",
+      "key_value": 2,
+      "my_value": 1,
+      "right": "mine",
+      "reason": "Same chart rule: only D8039 entered Qualified from Mon 2026-09-07 to Mon 2026-09-14 among deals that pass every check."
+    },
+    {
+      "deal": null,
+      "field": "expected.chart_new_qualified[2026-09-21]",
+      "key_value": 1,
+      "my_value": 0,
+      "right": "mine",
+      "reason": "The chart is \"counted with this week's held-out status\": D8024 (Qualified 2026-09-21) is held out by H13, so the week has none."
+    },
+    {
+      "deal": null,
+      "field": "expected.chart_new_qualified[2026-11-16]",
+      "key_value": 0,
+      "my_value": 5,
+      "right": "mine",
+      "reason": "Same chart rule: D8017, D8018, D8019, D8021 and D8029 entered Qualified in this week and pass every check, the same five as New qualified."
+    }
+  ],
+  "totals_check": {
+    "export_deals": 40,
+    "export_value": 2364000,
+    "counted_deals": 22,
+    "counted_value": 1320000
+  },
+  "alternative_reading": {
+    "what": "For information only, not the answer: if each 22-cell row were realigned by dropping one empty cell so its dates fall where the row's writer meant, D8020, D8024 and D8025 would be counted (new qualified 6, lost 2 / 120,000, held out 15 / 864,000, chart week 2026-09-21 at 1 and week 2026-11-16 at 6); every other held-out reason and the whole push list stay as in the reader's answer, and the key would still be wrong on the items listed below.",
+    "held_out_differences_from_key": {
+      "D8015": {
+        "key": "H14",
+        "realigned": "H13"
+      }
+    },
+    "number_differences_from_key": {
+      "new_qualified": {
+        "key": 5,
+        "realigned": 6
+      },
+      "moved_forward": {
+        "key": 3,
+        "realigned": 2
+      },
+      "open": {
+        "key": {
+          "count": 19,
+          "value": 1320000
+        },
+        "realigned": {
+          "count": 19,
+          "value": 1140000
+        }
+      },
+      "lost_before_qualified": {
+        "key": {
+          "count": 1
+        },
+        "realigned": {
+          "count": 0
+        }
+      },
+      "card": {
+        "key": {
+          "count": 5,
+          "value": 300000,
+          "stage": "Qualified",
+          "stage_count": 2
+        },
+        "realigned": {
+          "count": 16,
+          "value": 960000,
+          "stage": "Qualified",
+          "stage_count": 12
+        }
+      },
+      "push_order": {
+        "key": [
+          "D8030",
+          "D8029",
+          "D8026",
+          "D8028",
+          "D8027"
+        ],
+        "realigned": [
+          "D8030",
+          "D8029",
+          "D8026",
+          "D8028",
+          "D8006",
+          "D8032",
+          "D8031",
+          "D8038",
+          "D8039",
+          "D8034",
+          "D8035",
+          "D8040",
+          "D8033",
+          "D8037",
+          "D8036",
+          "D8027"
+        ]
+      },
+      "chart_new_qualified[2026-08-31]": {
+        "key": 2,
+        "realigned": 4
+      },
+      "chart_new_qualified[2026-09-07]": {
+        "key": 2,
+        "realigned": 1
+      },
+      "chart_new_qualified[2026-11-16]": {
+        "key": 0,
+        "realigned": 6
+      }
+    },
+    "push_same_as_reader": true
+  },
+  "corrected_key": {
+    "export": "other-40",
+    "held_out": {
+      "D8001": "H1",
+      "D8002": "H2",
+      "D8003": "H3",
+      "D8004": "H4",
+      "D8005": "H5",
+      "D8007": "H6",
+      "D8008": "H7",
+      "D8009": "H8",
+      "D8010": "H9",
+      "D8011": "H10",
+      "D8012": "H11",
+      "D8013": "H12",
+      "D8014": "H13",
+      "D8015": "H13",
+      "D8016": "H15",
+      "D8020": "H13",
+      "D8024": "H13",
+      "D8025": "H13"
+    },
+    "push": {
+      "D8006": [
+        "OVER LIMIT"
+      ],
+      "D8026": [
+        "OVER LIMIT",
+        "QUIET"
+      ],
+      "D8027": [
+        "SLIPPED"
+      ],
+      "D8028": [
+        "QUIET",
+        "NONE BOOKED"
+      ],
+      "D8029": [
+        "SLIPPED",
+        "QUIET",
+        "NONE BOOKED"
+      ],
+      "D8030": [
+        "OVER LIMIT",
+        "QUIET",
+        "NONE BOOKED"
+      ],
+      "D8031": [
+        "OVER LIMIT"
+      ],
+      "D8032": [
+        "OVER LIMIT"
+      ],
+      "D8033": [
+        "OVER LIMIT"
+      ],
+      "D8034": [
+        "OVER LIMIT"
+      ],
+      "D8035": [
+        "OVER LIMIT"
+      ],
+      "D8036": [
+        "OVER LIMIT"
+      ],
+      "D8037": [
+        "OVER LIMIT"
+      ],
+      "D8038": [
+        "OVER LIMIT"
+      ],
+      "D8039": [
+        "OVER LIMIT"
+      ],
+      "D8040": [
+        "OVER LIMIT"
+      ]
+    },
+    "expected": {
+      "new_qualified": 5,
+      "moved_forward": 2,
+      "won": {
+        "count": 2,
+        "value": 120000
+      },
+      "lost": {
+        "count": 0,
+        "value": 0
+      },
+      "open": {
+        "count": 19,
+        "value": 1140000
+      },
+      "held_out": {
+        "count": 18,
+        "value": 1044000
+      },
+      "lost_before_qualified": {
+        "count": 0
+      },
+      "chart_new_qualified": [
+        {
+          "week_start": "2026-08-31",
+          "count": 4
+        },
+        {
+          "week_start": "2026-09-07",
+          "count": 1
+        },
+        {
+          "week_start": "2026-09-14",
+          "count": 1
+        },
+        {
+          "week_start": "2026-09-21",
+          "count": 0
+        },
+        {
+          "week_start": "2026-09-28",
+          "count": 1
+        },
+        {
+          "week_start": "2026-10-05",
+          "count": 2
+        },
+        {
+          "week_start": "2026-10-12",
+          "count": 1
+        },
+        {
+          "week_start": "2026-10-19",
+          "count": 1
+        },
+        {
+          "week_start": "2026-10-26",
+          "count": 1
+        },
+        {
+          "week_start": "2026-11-02",
+          "count": 0
+        },
+        {
+          "week_start": "2026-11-09",
+          "count": 1
+        },
+        {
+          "week_start": "2026-11-16",
+          "count": 5
+        }
+      ],
+      "card": {
+        "count": 16,
+        "value": 960000,
+        "stage": "Qualified",
+        "stage_count": 12
+      },
+      "push_order": [
+        "D8030",
+        "D8029",
+        "D8026",
+        "D8028",
+        "D8006",
+        "D8032",
+        "D8031",
+        "D8038",
+        "D8039",
+        "D8034",
+        "D8035",
+        "D8040",
+        "D8033",
+        "D8037",
+        "D8036",
+        "D8027"
+      ]
+    },
+    "your_problems": [
+      {
+        "deal": "D8001",
+        "what": "H1: owner is blank."
+      },
+      {
+        "deal": "D8002",
+        "what": "H2: qualified deal has no amount."
+      },
+      {
+        "deal": "D8003",
+        "what": "H3: qualified deal has no close date."
+      },
+      {
+        "deal": "D8004",
+        "what": "H4: open close date is before export."
+      },
+      {
+        "deal": "D8005",
+        "what": "H5: Pilot proposed is entered with Qualified missing."
+      },
+      {
+        "deal": "D8006 and D8007",
+        "what": "H6: same domain; oldest by creation is retained."
+      },
+      {
+        "deal": "D8008",
+        "what": "H7: moved from Pilot proposed back to Qualified."
+      },
+      {
+        "deal": "D8009",
+        "what": "H8: last contacted date is after loss close date."
+      },
+      {
+        "deal": "D8010",
+        "what": "H9: lost with no reason."
+      },
+      {
+        "deal": "D8011",
+        "what": "H10: owner is not on team."
+      },
+      {
+        "deal": "D8012",
+        "what": "H11: firm name starts with Test."
+      },
+      {
+        "deal": "D8013",
+        "what": "H12: firm ID is absent from firms file."
+      },
+      {
+        "deal": "D8014",
+        "what": "H13: current stage has no entered date."
+      },
+      {
+        "deal": "D8015",
+        "what": "H13 (corrected by reader): stage Qualified with no Date entered Qualified; it is also created and entered after the export (H14), but the lowest rule applies."
+      },
+      {
+        "deal": "D8016",
+        "what": "H15: unknown stage."
+      },
+      {
+        "deal": "D8026",
+        "what": "Push: OVER LIMIT and QUIET."
+      },
+      {
+        "deal": "D8027",
+        "what": "Push: SLIPPED; close date advanced by at least 7 days."
+      },
+      {
+        "deal": "D8028",
+        "what": "Push: QUIET and NONE BOOKED."
+      },
+      {
+        "deal": "D8029",
+        "what": "Push: SLIPPED, QUIET, and NONE BOOKED."
+      },
+      {
+        "deal": "D8030",
+        "what": "Push: OVER LIMIT, QUIET, and NONE BOOKED."
+      },
+      {
+        "deal": "D8031",
+        "what": "Near-miss chart boundary: entered Qualified on the first chart week."
+      },
+      {
+        "deal": "D8032",
+        "what": "Near-miss chart boundary: qualified before the first chart week."
+      },
+      {
+        "deal": "D8020",
+        "what": "H13 (added by reader): the row has 22 cells under a 21-column header; its Lost date sits past the last column, so entered_lost is empty."
+      },
+      {
+        "deal": "D8024",
+        "what": "H13 (added by reader): the row has 22 cells under a 21-column header; its Lost date sits past the last column, so entered_lost is empty."
+      },
+      {
+        "deal": "D8025",
+        "what": "H13 (added by reader): the row has 22 cells under a 21-column header; its Lost date sits past the last column, so entered_lost is empty."
+      },
+      {
+        "deal": "D8006",
+        "what": "Push (added by reader): OVER LIMIT, Qualified for 100 days against a limit of 11."
+      },
+      {
+        "deal": "D8031",
+        "what": "Push (added by reader): OVER LIMIT, Qualified for 84 days against a limit of 11."
+      },
+      {
+        "deal": "D8032",
+        "what": "Push (added by reader): OVER LIMIT, Qualified for 98 days against a limit of 11."
+      },
+      {
+        "deal": "D8033",
+        "what": "Push (added by reader): OVER LIMIT, Qualified for 42 days against a limit of 11."
+      },
+      {
+        "deal": "D8034",
+        "what": "Push (added by reader): OVER LIMIT, Qualified for 70 days against a limit of 11."
+      },
+      {
+        "deal": "D8035",
+        "what": "Push (added by reader): OVER LIMIT, Qualified for 56 days against a limit of 11."
+      },
+      {
+        "deal": "D8036",
+        "what": "Push (added by reader): OVER LIMIT, Qualified for 14 days against a limit of 11."
+      },
+      {
+        "deal": "D8037",
+        "what": "Push (added by reader): OVER LIMIT, Qualified for 28 days against a limit of 11."
+      },
+      {
+        "deal": "D8038",
+        "what": "Push (added by reader): OVER LIMIT, Qualified for 83 days against a limit of 11."
+      },
+      {
+        "deal": "D8039",
+        "what": "Push (added by reader): OVER LIMIT, Qualified for 77 days against a limit of 11."
+      },
+      {
+        "deal": "D8040",
+        "what": "Push (added by reader): OVER LIMIT, Qualified for 49 days against a limit of 11."
+      }
+    ],
+    "corrected_by": "fresh reader check, reader-check.json; the original key.json is unchanged; this corrected key is the one used for scoring"
+  }
+}

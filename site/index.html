@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Weekly Pipeline</title>
+<meta name="description" content="Last week's pipeline numbers, each with its definition. Sample data.">
+<meta property="og:title" content="Weekly Pipeline">
+<meta property="og:description" content="Last week's pipeline numbers, each with its definition. Sample data.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://duckky153.github.io/weekly-pipeline/">
+<meta property="og:image" content="https://duckky153.github.io/weekly-pipeline/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23F1EDFE'/%3E%3Crect x='7' y='16' width='4' height='9' rx='1' fill='%233E21F3'/%3E%3Crect x='14' y='11' width='4' height='14' rx='1' fill='%233E21F3'/%3E%3Crect x='21' y='7' width='4' height='18' rx='1' fill='%23D2511F'/%3E%3C/svg%3E">
+<link rel="preload" href="fonts/DMSans.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="preload" href="fonts/Brygada1918.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="top-in">
+    <h1>Weekly Pipeline</h1>
+    <span class="label sample">Sample data</span>
+    <a href="https://github.com/Duckky153/weekly-pipeline">Code</a>
+  </div>
+</header>
+
+<main id="page" aria-busy="true">
+  <section class="counts" aria-labelledby="counts-h">
+    <h2 class="label" id="counts-h">What counts</h2>
+    <dl id="defs"></dl>
+  </section>
+
+  <section class="review" aria-labelledby="review-h">
+    <div class="text">
+      <h2 class="label" id="review-h">Monday review</h2>
+      <p class="line" id="card-line"></p>
+      <p class="detail" id="card-detail"></p>
+    </div>
+    <button class="copy" id="copy" type="button">Copy for the sales meeting</button>
+  </section>
+
+  <section class="week" aria-labelledby="week-h">
+    <div class="week-head">
+      <h2 class="label" id="week-h">Last week</h2>
+      <span class="when" id="week-when"></span>
+    </div>
+    <div class="numbers" id="numbers"></div>
+    <button class="held" id="held" type="button"></button>
+  </section>
+
+  <section class="panel push" aria-labelledby="push-h">
+    <div class="panel-head">
+      <h2 id="push-h">Needs a push</h2>
+      <span class="badge" id="push-count"></span>
+    </div>
+    <ol class="rows" id="rows"></ol>
+    <button class="more" id="more" type="button" hidden></button>
+  </section>
+
+  <section class="panel chart" aria-labelledby="chart-h">
+    <div class="panel-head">
+      <h2 id="chart-h">New qualified deals</h2>
+      <span class="aside">12 weeks</span>
+    </div>
+    <div class="bars" id="bars"></div>
+    <div class="axis"><span id="axis-first"></span><span id="axis-last"></span></div>
+    <p class="tested" id="tested" hidden></p>
+  </section>
+</main>
+
+<div id="drawer-root"></div>
+<p class="sr" id="live" aria-live="polite"></p>
+<script src="app.js"></script>
+</body>
+</html>

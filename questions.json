@@ -1,0 +1,80 @@
+{
+ "version": "fp-q2.2",
+ "note": "The fixed questions of the notes check, written before any read. Picks and yes-or-no probabilities only; it writes nothing. A yes-or-no is read twice and the less favourable read counts; a pick counts only when both reads choose the same option at or above its bar. The settling rules are in notes_check.py.",
+ "read": {
+  "step_specific": {
+   "type": "noul",
+   "needs": [
+    "next_step"
+   ],
+   "q": "Does `next_step` say what someone will do next on this deal, such as send the pilot scope, send the order form, or call a named person? Yes: it names an action to take; it may also say who or when. Words like \"follow up\" or \"check in\" do not make it a placeholder when it also names what will be sent or done. No: it is only a placeholder (\"follow up\", \"check in\", \"touch base\", \"TBD\", \"keep warm\") or a status (\"waiting on signature\", \"with their partners\"), even when it gives a time.",
+   "real": 0.8,
+   "not_a_step": 0.3
+  },
+  "step_done": {
+   "type": "noul",
+   "needs": [
+    "next_step",
+    "latest_note"
+   ],
+   "q": "Does `latest_note` say that the action in `next_step` has already been done, or that it has been called off? A note that only asks for it or plans to do it, or that is about a different action, does not count.",
+   "done": 0.8
+  },
+  "stage_said": {
+   "type": "noul",
+   "needs": [
+    "latest_note"
+   ],
+   "q": "Do `latest_note` and `earlier_notes` describe at least one event from `stages` that has already happened for this deal, such as a consultation booked or held, a pilot scope sent, a yes to the scope, an order form sent or signed? Answer from the notes alone; `stage` may be wrong.",
+   "yes": 0.8
+  },
+  "stage_pick": {
+   "type": "pick",
+   "needs": [
+    "latest_note"
+   ],
+   "options": "stages",
+   "q": "Going only by the notes, which stage has this deal reached? Pick the latest stage whose event the notes say has already happened.",
+   "pick": 0.8
+  },
+  "waiting_said": {
+   "type": "noul",
+   "needs": [
+    "latest_note"
+   ],
+   "q": "Does `latest_note` say what this deal is waiting on before it can move to the next stage?",
+   "yes": 0.75
+  },
+  "waiting_pick": {
+   "type": "pick",
+   "needs": [
+    "latest_note"
+   ],
+   "options": "waiting",
+   "q": "Going by `latest_note`, what is this deal waiting on now?",
+   "pick": 0.7
+  }
+ },
+ "near": 0.05,
+ "options": {
+  "stages": {
+   "Consultation booked": "Starts when a consultation with someone at the firm is booked.",
+   "Qualified": "Starts when the consultation was held with the person who signs. Does not count: a consultation only booked.",
+   "Pilot proposed": "Starts when a pilot scope (which cases, how many, which work) is sent to the firm. Does not count: a scope only discussed on a call.",
+   "Partner said yes": "Starts when the owner or managing partner said yes to the pilot scope and price. Does not count: a yes from anyone else.",
+   "Order form sent": "Starts when the order form is sent for signature. Does not count: an order form only promised.",
+   "Won": "Starts when the order form has both signatures. Does not count: sent, or signed by one side.",
+   "Lost": "Starts when the firm said no, or the owner closed it."
+  },
+  "waiting": {
+   "signer": "the person who signs has not seen the pilot scope yet",
+   "question": "an answer to a question the firm asked, such as price, billing or how the work would run",
+   "order_form": "the order form has not been sent yet",
+   "signature": "the firm to sign an order form it already has",
+   "quiet": "the firm to reply; it has stopped answering",
+   "later_date": "a later date the firm asked to come back at",
+   "nothing": "nothing; the next meeting or step is already booked",
+   "other": "something else"
+  }
+ }
+}

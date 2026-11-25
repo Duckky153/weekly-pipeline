@@ -1,0 +1,22 @@
+{
+ "request_fingerprint": "0929b553c6216686",
+ "model": "jev-1.14.0",
+ "a": {
+  "answers": {
+   "step_specific": {
+    "type": "noul",
+    "noul": 0.92
+   }
+  },
+  "input_tokens": 589
+ },
+ "b": {
+  "answers": {
+   "step_specific": {
+    "type": "noul",
+    "noul": 0.93
+   }
+  },
+  "input_tokens": 589
+ }
+}

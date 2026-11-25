@@ -1,0 +1,95 @@
+{
+ "export": "practice",
+ "questions": "fp-q2.2",
+ "stage_check": true,
+ "push": {
+  "right": 10,
+  "of": 10,
+  "listed_wrongly": 0,
+  "listed_wrongly_ids": [],
+  "order_matches_key": true
+ },
+ "held_out": {
+  "caught": 12,
+  "of": 12,
+  "held_wrongly": 0,
+  "held_wrongly_ids": []
+ },
+ "notes": {
+  "found": 23,
+  "of": 24,
+  "false_flags": 0,
+  "clean_chances": 67,
+  "misses": [
+   "D1253 CHECK STAGE Pilot proposed (got None)"
+  ],
+  "false_flag_list": [],
+  "waiting": {
+   "wrong": 1,
+   "settled": 22,
+   "keyed": 42
+  },
+  "near_bar": 12,
+  "not_read": 0
+ },
+ "code_only": {
+  "found": 0,
+  "of": 24,
+  "false_flags": 0,
+  "clean_chances": 67,
+  "misses": [
+   "D1148 NOT A STEP",
+   "D1151 STEP DONE",
+   "D1159 STEP DONE",
+   "D1162 NOT A STEP",
+   "D1167 STEP DONE",
+   "D1176 STEP DONE",
+   "D1183 NOT A STEP",
+   "D1190 CHECK STAGE Partner said yes (got None)",
+   "D1200 NOT A STEP",
+   "D1201 NOT A STEP",
+   "D1204 NOT A STEP",
+   "D1211 CHECK STAGE Pilot proposed (got None)",
+   "D1213 NOT A STEP",
+   "D1217 STEP DONE",
+   "D1238 CHECK STAGE Qualified (got None)",
+   "D1242 NOT A STEP",
+   "D1249 NOT A STEP",
+   "D1253 CHECK STAGE Pilot proposed (got None)",
+   "D1258 NOT A STEP",
+   "D1263 STEP DONE",
+   "D1269 NOT A STEP",
+   "D1285 CHECK STAGE Consultation booked (got None)",
+   "D1293 CHECK STAGE Qualified (got None)",
+   "D1303 NOT A STEP"
+  ],
+  "false_flag_list": [],
+  "waiting": {
+   "wrong": 0,
+   "settled": 0,
+   "keyed": 42
+  },
+  "near_bar": 0,
+  "not_read": 49
+ },
+ "keyword_yardstick": {
+  "found": 23,
+  "of": 24,
+  "false_flags": 2,
+  "clean_chances": 67,
+  "misses": [
+   "D1238 CHECK STAGE Qualified (got None)"
+  ],
+  "false_flag_list": [
+   "D1155 ['STEP DONE']",
+   "D1244 CHECK STAGE Partner said yes"
+  ],
+  "waiting": {
+   "wrong": 2,
+   "settled": 31,
+   "keyed": 42
+  },
+  "near_bar": 0,
+  "not_read": 0
+ }
+}

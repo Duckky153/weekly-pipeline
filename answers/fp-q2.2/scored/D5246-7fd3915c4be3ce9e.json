@@ -1,0 +1,104 @@
+{
+ "request_fingerprint": "7fd3915c4be3ce9e",
+ "model": "jev-1.14.0",
+ "a": {
+  "answers": {
+   "step_specific": {
+    "type": "noul",
+    "noul": 0.97
+   },
+   "step_done": {
+    "type": "noul",
+    "noul": 0.01
+   },
+   "stage_said": {
+    "type": "noul",
+    "noul": 0.98
+   },
+   "stage_pick": {
+    "type": "choice",
+    "choice": "Pilot proposed",
+    "confidence": 0.72,
+    "probabilities": {
+     "Consultation booked": 0.0,
+     "Qualified": 0.24,
+     "Pilot proposed": 0.76,
+     "Partner said yes": 0.0,
+     "Order form sent": 0.0,
+     "Won": 0.0,
+     "Lost": 0.0
+    }
+   },
+   "waiting_said": {
+    "type": "noul",
+    "noul": 0.79
+   },
+   "waiting_pick": {
+    "type": "choice",
+    "choice": "nothing",
+    "confidence": 0.58,
+    "probabilities": {
+     "signer": 0.27,
+     "question": 0.01,
+     "order_form": 0.0,
+     "signature": 0.0,
+     "quiet": 0.0,
+     "later_date": 0.03,
+     "nothing": 0.63,
+     "other": 0.06
+    }
+   }
+  },
+  "input_tokens": 1292
+ },
+ "b": {
+  "answers": {
+   "waiting_pick": {
+    "type": "choice",
+    "choice": "signer",
+    "confidence": 0.46,
+    "probabilities": {
+     "other": 0.07,
+     "nothing": 0.35,
+     "later_date": 0.04,
+     "quiet": 0.0,
+     "signature": 0.0,
+     "order_form": 0.0,
+     "question": 0.01,
+     "signer": 0.53
+    }
+   },
+   "waiting_said": {
+    "type": "noul",
+    "noul": 0.79
+   },
+   "stage_pick": {
+    "type": "choice",
+    "choice": "Pilot proposed",
+    "confidence": 0.89,
+    "probabilities": {
+     "Lost": 0.0,
+     "Won": 0.0,
+     "Order form sent": 0.0,
+     "Partner said yes": 0.0,
+     "Pilot proposed": 0.91,
+     "Qualified": 0.09,
+     "Consultation booked": 0.0
+    }
+   },
+   "stage_said": {
+    "type": "noul",
+    "noul": 0.99
+   },
+   "step_done": {
+    "type": "noul",
+    "noul": 0.01
+   },
+   "step_specific": {
+    "type": "noul",
+    "noul": 0.97
+   }
+  },
+  "input_tokens": 1292
+ }
+}

@@ -1,0 +1,8 @@
+{
+ "note": "Fixed before any read. The notes check's service, model and limits.",
+ "reader": {"service": "TypeSafe", "model": "jev-1.14.0", "questions": "questions.json"},
+ "stage_check": true,
+ "max_request_tokens": 8000,
+ "earlier_notes": 2,
+ "cap_dollars": 0.50
+}

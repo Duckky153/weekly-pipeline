@@ -1,0 +1,464 @@
+{
+  "export": "practice",
+  "held_out": {
+    "D1099": "H7",
+    "D1111": "H8",
+    "D1127": "H3",
+    "D1137": "H6",
+    "D1139": "H4",
+    "D1143": "H1",
+    "D1144": "H2",
+    "D1163": "H4",
+    "D1197": "H7",
+    "D1227": "H5",
+    "D1266": "H2",
+    "D1276": "H6"
+  },
+  "data_near_misses": {
+    "D1082": "contact after a win",
+    "D1221": "a deal lost straight from Pilot proposed",
+    "D1229": "two firms in the same city on different domains",
+    "D1231": "a Consultation booked deal with a past automatic close date",
+    "D1242": "an amount just above zero",
+    "D1299": "a deal created straight into Qualified"
+  },
+  "push": {
+    "D1130": [
+      "OVER LIMIT",
+      "SLIPPED"
+    ],
+    "D1148": [
+      "OVER LIMIT",
+      "QUIET"
+    ],
+    "D1151": [
+      "SLIPPED",
+      "NONE BOOKED"
+    ],
+    "D1162": [
+      "OVER LIMIT"
+    ],
+    "D1234": [
+      "OVER LIMIT"
+    ],
+    "D1207": [
+      "SLIPPED"
+    ],
+    "D1201": [
+      "QUIET"
+    ],
+    "D1281": [
+      "QUIET"
+    ],
+    "D1263": [
+      "NONE BOOKED"
+    ],
+    "D1213": [
+      "NONE BOOKED"
+    ]
+  },
+  "push_near_misses": {
+    "D1163": "a held-out deal that would meet a push rule",
+    "D1218": "last contact exactly 14 days ago",
+    "D1224": "a close date pulled earlier",
+    "D1226": "close date exactly 6 days later",
+    "D1244": "days in stage exactly at the limit"
+  },
+  "notes": {
+    "D1130": {
+      "step": "real",
+      "stage_from_notes": null,
+      "waiting": "signature",
+      "waiting_said": true
+    },
+    "D1136": {
+      "step": "real",
+      "stage_from_notes": null,
+      "waiting": "later_date",
+      "waiting_said": true
+    },
+    "D1148": {
+      "step": "not_a_step",
+      "stage_from_notes": null,
+      "waiting": "quiet",
+      "waiting_said": true
+    },
+    "D1151": {
+      "step": "done",
+      "stage_from_notes": null,
+      "waiting": "signature",
+      "waiting_said": true
+    },
+    "D1155": {
+      "step": "real",
+      "stage_from_notes": null,
+      "waiting": "other",
+      "waiting_said": true
+    },
+    "D1159": {
+      "step": "done",
+      "stage_from_notes": null,
+      "waiting": "signature",
+      "waiting_said": true
+    },
+    "D1162": {
+      "step": "not_a_step",
+      "stage_from_notes": null,
+      "waiting": "signer",
+      "waiting_said": true
+    },
+    "D1166": {
+      "step": "real",
+      "stage_from_notes": null,
+      "waiting": "signature",
+      "waiting_said": true
+    },
+    "D1167": {
+      "step": "done",
+      "stage_from_notes": null,
+      "waiting": "signature",
+      "waiting_said": true
+    },
+    "D1172": {
+      "step": "none",
+      "stage_from_notes": null,
+      "waiting": "signature",
+      "waiting_said": true
+    },
+    "D1176": {
+      "step": "done",
+      "stage_from_notes": null,
+      "waiting": "order_form",
+      "waiting_said": true
+    },
+    "D1179": {
+      "step": "real",
+      "stage_from_notes": null,
+      "waiting": "question",
+      "waiting_said": true
+    },
+    "D1183": {
+      "step": "not_a_step",
+      "stage_from_notes": null,
+      "waiting": "question",
+      "waiting_said": true
+    },
+    "D1190": {
+      "step": "real",
+      "stage_from_notes": "Partner said yes",
+      "waiting": "order_form",
+      "waiting_said": true
+    },
+    "D1193": {
+      "step": "real",
+      "stage_from_notes": null,
+      "waiting": "order_form",
+      "waiting_said": true
+    },
+    "D1199": {
+      "step": "real",
+      "stage_from_notes": null,
+      "waiting": "signature",
+      "waiting_said": true
+    },
+    "D1200": {
+      "step": "not_a_step",
+      "stage_from_notes": null,
+      "waiting": "later_date",
+      "waiting_said": true
+    },
+    "D1201": {
+      "step": "not_a_step",
+      "stage_from_notes": null,
+      "waiting": "quiet",
+      "waiting_said": true
+    },
+    "D1204": {
+      "step": "not_a_step",
+      "stage_from_notes": null,
+      "waiting": "later_date",
+      "waiting_said": true
+    },
+    "D1205": {
+      "step": "real",
+      "stage_from_notes": null,
+      "waiting": "order_form",
+      "waiting_said": true
+    },
+    "D1207": {
+      "step": "real",
+      "stage_from_notes": null,
+      "waiting": "order_form",
+      "waiting_said": true
+    },
+    "D1211": {
+      "step": "real",
+      "stage_from_notes": "Pilot proposed",
+      "waiting": "signer",
+      "waiting_said": true
+    },
+    "D1213": {
+      "step": "not_a_step",
+      "stage_from_notes": null,
+      "waiting": null,
+      "waiting_said": false
+    },
+    "D1217": {
+      "step": "done",
+      "stage_from_notes": null,
+      "waiting": "question",
+      "waiting_said": true
+    },
+    "D1218": {
+      "step": "real",
+      "stage_from_notes": null,
+      "waiting": "nothing",
+      "waiting_said": true
+    },
+    "D1224": {
+      "step": "real",
+      "stage_from_notes": null,
+      "waiting": "nothing",
+      "waiting_said": true
+    },
+    "D1226": {
+      "step": "real",
+      "stage_from_notes": null,
+      "waiting": "question",
+      "waiting_said": true
+    },
+    "D1229": {
+      "step": "real",
+      "stage_from_notes": null,
+      "waiting": "question",
+      "waiting_said": true
+    },
+    "D1230": {
+      "step": "real",
+      "stage_from_notes": null,
+      "waiting": "question",
+      "waiting_said": true
+    },
+    "D1231": {
+      "step": "real",
+      "stage_from_notes": null,
+      "waiting": "nothing",
+      "waiting_said": true
+    },
+    "D1234": {
+      "step": "none",
+      "stage_from_notes": null,
+      "waiting": "question",
+      "waiting_said": true
+    },
+    "D1238": {
+      "step": "real",
+      "stage_from_notes": "Qualified",
+      "waiting": "signer",
+      "waiting_said": true
+    },
+    "D1242": {
+      "step": "not_a_step",
+      "stage_from_notes": null,
+      "waiting": null,
+      "waiting_said": false
+    },
+    "D1244": {
+      "step": "real",
+      "stage_from_notes": null,
+      "waiting": "signer",
+      "waiting_said": true
+    },
+    "D1249": {
+      "step": "not_a_step",
+      "stage_from_notes": null,
+      "waiting": "later_date",
+      "waiting_said": true
+    },
+    "D1253": {
+      "step": "real",
+      "stage_from_notes": "Pilot proposed",
+      "waiting": "nothing",
+      "waiting_said": true
+    },
+    "D1258": {
+      "step": "not_a_step",
+      "stage_from_notes": null,
+      "waiting": "nothing",
+      "waiting_said": true
+    },
+    "D1263": {
+      "step": "done",
+      "stage_from_notes": null,
+      "waiting": "later_date",
+      "waiting_said": true
+    },
+    "D1269": {
+      "step": "not_a_step",
+      "stage_from_notes": null,
+      "waiting": "later_date",
+      "waiting_said": true
+    },
+    "D1274": {
+      "step": "real",
+      "stage_from_notes": null,
+      "waiting": "nothing",
+      "waiting_said": true
+    },
+    "D1279": {
+      "step": "real",
+      "stage_from_notes": null,
+      "waiting": null,
+      "waiting_said": false
+    },
+    "D1281": {
+      "step": "real",
+      "stage_from_notes": null,
+      "waiting": "signer",
+      "waiting_said": true
+    },
+    "D1285": {
+      "step": "real",
+      "stage_from_notes": "Consultation booked",
+      "waiting": "nothing",
+      "waiting_said": true
+    },
+    "D1293": {
+      "step": "real",
+      "stage_from_notes": "Qualified",
+      "waiting": null,
+      "waiting_said": false
+    },
+    "D1296": {
+      "step": "none",
+      "stage_from_notes": null,
+      "waiting": "nothing",
+      "waiting_said": true
+    },
+    "D1299": {
+      "step": "real",
+      "stage_from_notes": null,
+      "waiting": "signer",
+      "waiting_said": true
+    },
+    "D1303": {
+      "step": "not_a_step",
+      "stage_from_notes": null,
+      "waiting": "nothing",
+      "waiting_said": true
+    }
+  },
+  "note_decoys": {
+    "D1130": "a note that only asks for the step",
+    "D1155": "a stage line that does not count: signed by one side",
+    "D1166": "a stage line that does not count: signed, but not by both sides",
+    "D1179": "a real step worded like a placeholder, and a note that only asks for it",
+    "D1205": "a note that only asks for the step",
+    "D1207": "a note about the step that says it is not done yet",
+    "D1224": "a note that only plans the step",
+    "D1226": "a note that only plans the step",
+    "D1229": "a real step worded like a placeholder",
+    "D1230": "a note that only plans the step",
+    "D1244": "a note that only plans the step",
+    "D1279": "a note about a different action that was done",
+    "D1281": "a note that only asks for the step",
+    "D1299": "a note that only plans the step"
+  },
+  "expected": {
+    "new_qualified": 6,
+    "moved_forward": 9,
+    "won": {
+      "count": 3,
+      "value": 924000
+    },
+    "lost": {
+      "count": 3,
+      "value": 414000
+    },
+    "open": {
+      "count": 41,
+      "value": 8472001
+    },
+    "held_out": {
+      "count": 12,
+      "value": 1905000
+    },
+    "push_order": [
+      "D1130",
+      "D1148",
+      "D1151",
+      "D1162",
+      "D1234",
+      "D1207",
+      "D1201",
+      "D1281",
+      "D1263",
+      "D1213"
+    ],
+    "lost_before_qualified": {
+      "count": 2
+    },
+    "chart_new_qualified": [
+      {
+        "week_start": "2026-08-31",
+        "count": 2
+      },
+      {
+        "week_start": "2026-09-07",
+        "count": 3
+      },
+      {
+        "week_start": "2026-09-14",
+        "count": 2
+      },
+      {
+        "week_start": "2026-09-21",
+        "count": 2
+      },
+      {
+        "week_start": "2026-09-28",
+        "count": 2
+      },
+      {
+        "week_start": "2026-10-05",
+        "count": 6
+      },
+      {
+        "week_start": "2026-10-12",
+        "count": 9
+      },
+      {
+        "week_start": "2026-10-19",
+        "count": 9
+      },
+      {
+        "week_start": "2026-10-26",
+        "count": 6
+      },
+      {
+        "week_start": "2026-11-02",
+        "count": 3
+      },
+      {
+        "week_start": "2026-11-09",
+        "count": 6
+      },
+      {
+        "week_start": "2026-11-16",
+        "count": 6
+      }
+    ],
+    "card": {
+      "count": 10,
+      "value": 2115000,
+      "stage": "Order form sent",
+      "stage_count": 3
+    },
+    "limits": {
+      "Qualified": 11,
+      "Pilot proposed": 16,
+      "Partner said yes": 15,
+      "Order form sent": 14
+    }
+  }
+}

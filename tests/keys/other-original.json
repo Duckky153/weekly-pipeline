@@ -1,0 +1,219 @@
+{
+  "export": "other-40",
+  "held_out": {
+    "D8001": "H1",
+    "D8002": "H2",
+    "D8003": "H3",
+    "D8004": "H4",
+    "D8005": "H5",
+    "D8007": "H6",
+    "D8008": "H7",
+    "D8009": "H8",
+    "D8010": "H9",
+    "D8011": "H10",
+    "D8012": "H11",
+    "D8013": "H12",
+    "D8014": "H13",
+    "D8015": "H14",
+    "D8016": "H15"
+  },
+  "push": {
+    "D8026": [
+      "OVER LIMIT",
+      "QUIET"
+    ],
+    "D8027": [
+      "SLIPPED"
+    ],
+    "D8028": [
+      "QUIET",
+      "NONE BOOKED"
+    ],
+    "D8029": [
+      "SLIPPED",
+      "QUIET",
+      "NONE BOOKED"
+    ],
+    "D8030": [
+      "OVER LIMIT",
+      "QUIET",
+      "NONE BOOKED"
+    ]
+  },
+  "expected": {
+    "new_qualified": 5,
+    "moved_forward": 3,
+    "won": {
+      "count": 2,
+      "value": 120000
+    },
+    "lost": {
+      "count": 2,
+      "value": 120000
+    },
+    "open": {
+      "count": 19,
+      "value": 1320000
+    },
+    "held_out": {
+      "count": 15,
+      "value": 864000
+    },
+    "lost_before_qualified": {
+      "count": 1
+    },
+    "chart_new_qualified": [
+      {
+        "week_start": "2026-08-31",
+        "count": 2
+      },
+      {
+        "week_start": "2026-09-07",
+        "count": 2
+      },
+      {
+        "week_start": "2026-09-14",
+        "count": 1
+      },
+      {
+        "week_start": "2026-09-21",
+        "count": 1
+      },
+      {
+        "week_start": "2026-09-28",
+        "count": 1
+      },
+      {
+        "week_start": "2026-10-05",
+        "count": 2
+      },
+      {
+        "week_start": "2026-10-12",
+        "count": 1
+      },
+      {
+        "week_start": "2026-10-19",
+        "count": 1
+      },
+      {
+        "week_start": "2026-10-26",
+        "count": 1
+      },
+      {
+        "week_start": "2026-11-02",
+        "count": 0
+      },
+      {
+        "week_start": "2026-11-09",
+        "count": 1
+      },
+      {
+        "week_start": "2026-11-16",
+        "count": 0
+      }
+    ],
+    "card": {
+      "count": 5,
+      "value": 300000,
+      "stage": "Qualified",
+      "stage_count": 2
+    },
+    "push_order": [
+      "D8030",
+      "D8029",
+      "D8026",
+      "D8028",
+      "D8027"
+    ]
+  },
+  "your_problems": [
+    {
+      "deal": "D8001",
+      "what": "H1: owner is blank."
+    },
+    {
+      "deal": "D8002",
+      "what": "H2: qualified deal has no amount."
+    },
+    {
+      "deal": "D8003",
+      "what": "H3: qualified deal has no close date."
+    },
+    {
+      "deal": "D8004",
+      "what": "H4: open close date is before export."
+    },
+    {
+      "deal": "D8005",
+      "what": "H5: Pilot proposed is entered with Qualified missing."
+    },
+    {
+      "deal": "D8006 and D8007",
+      "what": "H6: same domain; oldest by creation is retained."
+    },
+    {
+      "deal": "D8008",
+      "what": "H7: moved from Pilot proposed back to Qualified."
+    },
+    {
+      "deal": "D8009",
+      "what": "H8: last contacted date is after loss close date."
+    },
+    {
+      "deal": "D8010",
+      "what": "H9: lost with no reason."
+    },
+    {
+      "deal": "D8011",
+      "what": "H10: owner is not on team."
+    },
+    {
+      "deal": "D8012",
+      "what": "H11: firm name starts with Test."
+    },
+    {
+      "deal": "D8013",
+      "what": "H12: firm ID is absent from firms file."
+    },
+    {
+      "deal": "D8014",
+      "what": "H13: current stage has no entered date."
+    },
+    {
+      "deal": "D8015",
+      "what": "H14: created and entered after export."
+    },
+    {
+      "deal": "D8016",
+      "what": "H15: unknown stage."
+    },
+    {
+      "deal": "D8026",
+      "what": "Push: OVER LIMIT and QUIET."
+    },
+    {
+      "deal": "D8027",
+      "what": "Push: SLIPPED; close date advanced by at least 7 days."
+    },
+    {
+      "deal": "D8028",
+      "what": "Push: QUIET and NONE BOOKED."
+    },
+    {
+      "deal": "D8029",
+      "what": "Push: SLIPPED, QUIET, and NONE BOOKED."
+    },
+    {
+      "deal": "D8030",
+      "what": "Push: OVER LIMIT, QUIET, and NONE BOOKED."
+    },
+    {
+      "deal": "D8031",
+      "what": "Near-miss chart boundary: entered Qualified on the first chart week."
+    },
+    {
+      "deal": "D8032",
+      "what": "Near-miss chart boundary: qualified before the first chart week."
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "summary": "Fields compared: 60 (15 deals x 4 fields). Fields agreeing: 59. Deals with any difference: 1 (X3, field waiting).",
+  "method": "For each deal, the reader labeled step, stage_from_notes, waiting_said and waiting from the recorded stage, Next step text and notes, using tests/LABELING.md and DEFINITIONS.md section 3.1 (stage events) only, with the other model's key entry hidden. Then it compared the two.",
+  "deals": [
+    {
+      "label": "X1", "deal_id": "D5237",
+      "reader": {"step": "real", "stage_from_notes": null, "waiting_said": true, "waiting": "nothing"},
+      "other_model": {"step": "real", "stage_from_notes": null, "waiting_said": true, "waiting": "nothing"},
+      "differences": {}
+    },
+    {
+      "label": "X2", "deal_id": "D5242",
+      "reader": {"step": "not_a_step", "stage_from_notes": null, "waiting_said": true, "waiting": "question"},
+      "other_model": {"step": "not_a_step", "stage_from_notes": null, "waiting_said": true, "waiting": "question"},
+      "differences": {}
+    },
+    {
+      "label": "X3", "deal_id": "D5249",
+      "reader": {"step": "not_a_step", "stage_from_notes": "Pilot proposed", "waiting_said": true, "waiting": "signer"},
+      "other_model": {"step": "not_a_step", "stage_from_notes": "Pilot proposed", "waiting_said": true, "waiting": "other"},
+      "differences": {
+        "waiting": "The note says the scope went to a contact who \"will review it with the owner\", so the person who signs has not seen it yet, which matches the `signer` option (DEFINITIONS 3.6: \"waiting on: the signer hasn't seen the scope\"); LABELING.md keeps `other` for \"Anything that fits none of the seven\", so `other` is the wrong pick when `signer` fits (a judgment call, but the reader reads `signer` as the better fit)."
+      }
+    },
+    {
+      "label": "X4", "deal_id": "D5259",
+      "reader": {"step": "real", "stage_from_notes": null, "waiting_said": false, "waiting": null},
+      "other_model": {"step": "real", "stage_from_notes": null, "waiting_said": false, "waiting": null},
+      "differences": {}
+    },
+    {
+      "label": "X5", "deal_id": "D5181",
+      "reader": {"step": "real", "stage_from_notes": "Partner said yes", "waiting_said": true, "waiting": "order_form"},
+      "other_model": {"step": "real", "stage_from_notes": "Partner said yes", "waiting_said": true, "waiting": "order_form"},
+      "differences": {}
+    },
+    {
+      "label": "X6", "deal_id": "D5201",
+      "reader": {"step": "real", "stage_from_notes": "Qualified", "waiting_said": true, "waiting": "signer"},
+      "other_model": {"step": "real", "stage_from_notes": "Qualified", "waiting_said": true, "waiting": "signer"},
+      "differences": {}
+    },
+    {
+      "label": "X7", "deal_id": "D5212",
+      "reader": {"step": "real", "stage_from_notes": null, "waiting_said": true, "waiting": "question"},
+      "other_model": {"step": "real", "stage_from_notes": null, "waiting_said": true, "waiting": "question"},
+      "differences": {}
+    },
+    {
+      "label": "X8", "deal_id": "D5233",
+      "reader": {"step": "not_a_step", "stage_from_notes": null, "waiting_said": true, "waiting": "quiet"},
+      "other_model": {"step": "not_a_step", "stage_from_notes": null, "waiting_said": true, "waiting": "quiet"},
+      "differences": {}
+    },
+    {
+      "label": "X9", "deal_id": "D5135",
+      "reader": {"step": "real", "stage_from_notes": null, "waiting_said": true, "waiting": "order_form"},
+      "other_model": {"step": "real", "stage_from_notes": null, "waiting_said": true, "waiting": "order_form"},
+      "differences": {}
+    },
+    {
+      "label": "X10", "deal_id": "D5163",
+      "reader": {"step": "done", "stage_from_notes": "Order form sent", "waiting_said": true, "waiting": "signature"},
+      "other_model": {"step": "done", "stage_from_notes": "Order form sent", "waiting_said": true, "waiting": "signature"},
+      "differences": {}
+    },
+    {
+      "label": "X11", "deal_id": "D5173",
+      "reader": {"step": "real", "stage_from_notes": null, "waiting_said": true, "waiting": "later_date"},
+      "other_model": {"step": "real", "stage_from_notes": null, "waiting_said": true, "waiting": "later_date"},
+      "differences": {}
+    },
+    {
+      "label": "X12", "deal_id": "D5089",
+      "reader": {"step": "real", "stage_from_notes": null, "waiting_said": true, "waiting": "signature"},
+      "other_model": {"step": "real", "stage_from_notes": null, "waiting_said": true, "waiting": "signature"},
+      "differences": {}
+    },
+    {
+      "label": "X13", "deal_id": "D5125",
+      "reader": {"step": "real", "stage_from_notes": null, "waiting_said": true, "waiting": "quiet"},
+      "other_model": {"step": "real", "stage_from_notes": null, "waiting_said": true, "waiting": "quiet"},
+      "differences": {}
+    },
+    {
+      "label": "X14", "deal_id": "D5147",
+      "reader": {"step": "real", "stage_from_notes": null, "waiting_said": true, "waiting": "signature"},
+      "other_model": {"step": "real", "stage_from_notes": null, "waiting_said": true, "waiting": "signature"},
+      "differences": {}
+    },
+    {
+      "label": "X15", "deal_id": "D5103",
+      "reader": {"step": "real", "stage_from_notes": null, "waiting_said": true, "waiting": "nothing"},
+      "other_model": {"step": "real", "stage_from_notes": null, "waiting_said": true, "waiting": "nothing"},
+      "differences": {}
+    }
+  ]
+}
